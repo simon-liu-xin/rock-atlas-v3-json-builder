@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/cli-result-v1.schema.json",
+  "title": "CLI result v1",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["ok", "command"],
+      "properties": {
+        "ok": { "const": true },
+        "command": { "type": "string", "minLength": 1 }
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ok", "error"],
+      "properties": {
+        "ok": { "const": false },
+        "error": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["code", "message", "cause", "hint", "docs_url", "details"],
+          "properties": {
+            "code": { "type": "string", "pattern": "^MW_[A-Z0-9_]+$" },
+            "message": { "type": "string", "minLength": 1 },
+            "cause": { "type": "string", "minLength": 1 },
+            "hint": { "type": "string", "minLength": 1 },
+            "docs_url": { "type": "string", "minLength": 1 },
+            "details": { "type": "object" }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/render-policy-v1.schema.json",
+  "title": "RenderPolicyV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "render_policy_id",
+    "projection_id",
+    "lod_algorithm",
+    "algorithm_version",
+    "seed",
+    "edge_selection_rules",
+    "label_selection_rules",
+    "input_snapshot",
+    "generated_at",
+    "content_hash"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "render_policy_id": { "type": "string", "pattern": "^mw:render-policy:[a-z0-9][a-z0-9-]*$" },
+    "projection_id": { "type": "string", "pattern": "^mw:projection:[a-z0-9][a-z0-9-]*$" },
+    "lod_algorithm": { "type": "string", "minLength": 1 },
+    "algorithm_version": { "type": "string", "minLength": 1 },
+    "seed": { "type": "string", "minLength": 1 },
+    "edge_selection_rules": { "$ref": "#/definitions/ruleSet" },
+    "label_selection_rules": { "$ref": "#/definitions/ruleSet" },
+    "input_snapshot": { "type": "string", "minLength": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "content_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" }
+  },
+  "definitions": {
+    "ruleSet": {
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          { "type": "boolean" },
+          { "type": "integer", "minimum": 0 },
+          { "type": "number", "minimum": 0 },
+          { "type": "string" },
+          { "type": "array", "items": { "type": "string" } }
+        ]
+      }
+    }
+  }
+}

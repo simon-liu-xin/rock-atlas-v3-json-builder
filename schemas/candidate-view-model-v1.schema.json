@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/candidate-view-model-v1.schema.json",
+  "title": "CandidateViewModel v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "view_model_version",
+    "snapshot_id",
+    "path_id",
+    "question",
+    "answer",
+    "relations",
+    "artists",
+    "recordings",
+    "evidence",
+    "actions",
+    "required_partitions",
+    "share_state"
+  ],
+  "properties": {
+    "view_model_version": { "const": "1.0" },
+    "snapshot_id": { "type": "string", "minLength": 1 },
+    "path_id": { "type": "string", "pattern": "^mw:path:[a-z0-9][a-z0-9-]*$" },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["focus_id", "text"],
+      "properties": {
+        "focus_id": { "type": "string", "pattern": "^mw:style:" },
+        "text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "coverage_state"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "coverage_state": { "$ref": "#/definitions/coverageState" }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "maxItems": 3,
+      "items": { "$ref": "#/definitions/relation" }
+    },
+    "artists": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/artist" }
+    },
+    "recordings": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/recording" }
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/evidence" }
+    },
+    "actions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 7,
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/action" }
+    },
+    "required_partitions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["partition_id", "license", "status"],
+        "properties": {
+          "partition_id": { "type": "string", "minLength": 1 },
+          "license": { "type": "string", "minLength": 1 },
+          "status": { "enum": ["ready", "loading", "failed"] }
+        }
+      }
+    },
+    "share_state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical_path", "snapshot", "focus_id", "path_id"],
+      "properties": {
+        "canonical_path": { "type": "string", "pattern": "^/experiment(?:/|$)" },
+        "snapshot": { "type": "string", "minLength": 1 },
+        "focus_id": { "type": "string", "pattern": "^mw:style:" },
+        "path_id": { "type": "string", "pattern": "^mw:path:" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "relations": { "type": "array", "maxItems": 0 } }
+      },
+      "then": {
+        "properties": {
+          "evidence": { "type": "array", "maxItems": 0 },
+          "actions": { "type": "array", "minItems": 4, "maxItems": 4 }
+        }
+      },
+      "else": {
+        "properties": {
+          "relations": { "type": "array", "minItems": 3, "maxItems": 3 },
+          "evidence": { "type": "array", "minItems": 1 },
+          "actions": { "type": "array", "minItems": 7, "maxItems": 7 }
+        }
+      }
+    }
+  ],
+  "definitions": {
+    "coverageState": {
+      "enum": [
+        "ready",
+        "partial",
+        "not_in_snapshot",
+        "not_reviewed",
+        "source_conflict",
+        "partition_loading",
+        "partition_failed",
+        "extension_not_installed"
+      ]
+    },
+    "sourceUrl": {
+      "oneOf": [
+        { "type": "string", "format": "uri", "pattern": "^https://" },
+        { "type": "string", "pattern": "^docs/[A-Za-z0-9._/-]+(?:#[A-Za-z0-9._-]+)?$" }
+      ]
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "internal_id",
+        "source_id",
+        "source_name",
+        "target_id",
+        "target_name",
+        "relation_type",
+        "direction",
+        "assertion_kind",
+        "label",
+        "summary",
+        "score",
+        "coverage_state",
+        "evidence_ids"
+      ],
+      "properties": {
+        "internal_id": { "type": "string", "pattern": "^mw:relation:" },
+        "source_id": { "type": "string", "pattern": "^mw:style:" },
+        "source_name": { "type": "string", "minLength": 1 },
+        "target_id": { "type": "string", "pattern": "^mw:style:" },
+        "target_name": { "type": "string", "minLength": 1 },
+        "relation_type": {
+          "enum": [
+            "subgenre_of",
+            "candidate_subgenre_of",
+            "associated_with",
+            "sounds_like",
+            "influenced_by",
+            "backlash_against",
+            "hybrid_of",
+            "likely_precedes"
+          ]
+        },
+        "direction": { "enum": ["directed", "undirected"] },
+        "assertion_kind": { "enum": ["fact", "inferred", "candidate"] },
+        "label": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string", "minLength": 1 },
+        "score": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "coverage_state": { "$ref": "#/definitions/coverageState" },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^mw:evidence:" }
+        }
+      }
+    },
+    "artist": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["internal_id", "canonical_name", "style_id", "source_url"],
+      "properties": {
+        "internal_id": { "type": "string", "pattern": "^mw:artist:" },
+        "canonical_name": { "type": "string", "minLength": 1 },
+        "style_id": { "type": "string", "pattern": "^mw:style:" },
+        "source_url": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    },
+    "recording": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "internal_id",
+        "canonical_name",
+        "artist_ids",
+        "first_release_date",
+        "length_ms",
+        "source_url"
+      ],
+      "properties": {
+        "internal_id": { "type": "string", "pattern": "^mw:recording:" },
+        "canonical_name": { "type": "string", "minLength": 1 },
+        "artist_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^mw:artist:" }
+        },
+        "first_release_date": { "type": ["string", "null"] },
+        "length_ms": { "type": ["integer", "null"], "minimum": 0 },
+        "source_url": { "type": "string", "format": "uri", "pattern": "^https://" }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "source_dataset",
+        "source_record_id",
+        "source_url",
+        "claim",
+        "retrieved_at",
+        "snapshot_version",
+        "license_partition"
+      ],
+      "properties": {
+        "evidence_id": { "type": "string", "pattern": "^mw:evidence:" },
+        "source_dataset": { "type": "string", "minLength": 1 },
+        "source_record_id": { "type": "string", "minLength": 1 },
+        "source_url": { "$ref": "#/definitions/sourceUrl" },
+        "claim": { "type": "string", "minLength": 1 },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "snapshot_version": { "type": "string", "minLength": 1 },
+        "license_partition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action_id", "action_type", "label", "target_id", "href"],
+      "properties": {
+        "action_id": { "type": "string", "pattern": "^mw:action:" },
+        "action_type": {
+          "enum": ["open_relation", "open_artist", "open_recording", "next_hop", "share"]
+        },
+        "label": { "type": "string", "minLength": 1 },
+        "target_id": { "type": ["string", "null"] },
+        "href": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

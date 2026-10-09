@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/projection-manifest-v1.schema.json",
+  "title": "ProjectionManifestV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "projection_id",
+    "projection_kind",
+    "entity_scope",
+    "source_edge_types",
+    "coordinate_semantics",
+    "algorithm",
+    "algorithm_version",
+    "input_snapshot",
+    "seed",
+    "dimensions",
+    "quality_metrics",
+    "license_partition",
+    "generated_at",
+    "content_hash"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "projection_id": { "type": "string", "pattern": "^mw:projection:[a-z0-9][a-z0-9-]*$" },
+    "projection_kind": { "enum": ["genealogy", "acoustic", "audience", "editorial"] },
+    "entity_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_types", "scope_query"],
+      "properties": {
+        "entity_types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["style", "artist", "release_group", "release", "recording", "evidence"]
+          }
+        },
+        "scope_query": { "type": "string", "minLength": 1 }
+      }
+    },
+    "source_edge_types": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" }
+    },
+    "coordinate_semantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "axes"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "axes": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 3,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "algorithm": { "type": "string", "minLength": 1 },
+    "algorithm_version": { "type": "string", "minLength": 1 },
+    "input_snapshot": { "type": "string", "minLength": 1 },
+    "seed": { "type": "string", "minLength": 1 },
+    "dimensions": { "enum": [2, 3] },
+    "quality_metrics": {
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          { "type": "number" },
+          { "type": "null" }
+        ]
+      }
+    },
+    "license_partition": { "type": "string", "minLength": 1 },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "content_hash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/catalog-namespace-manifest-v3.schema.json",
+  "title": "CatalogNamespaceManifestV3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest_version", "generation_id", "namespace", "buckets"],
+  "properties": {
+    "manifest_version": { "const": "3.0" },
+    "generation_id": { "type": "string", "pattern": "^mw:catalog-generation:" },
+    "namespace": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "prefix": { "type": "string", "pattern": "^[a-f0-9]*$" },
+    "buckets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "prefix",
+          "record_count",
+          "url",
+          "content_sha256",
+          "object_sha256",
+          "content_bytes",
+          "object_bytes"
+        ],
+        "properties": {
+          "prefix": { "type": "string", "pattern": "^[a-f0-9]+$" },
+          "record_count": { "type": "integer", "minimum": 1 },
+          "url": { "type": "string", "minLength": 1 },
+          "content_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "object_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "content_bytes": { "type": "integer", "minimum": 1 },
+          "object_bytes": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "shards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["prefix", "manifest"],
+        "properties": {
+          "prefix": { "type": "string", "pattern": "^[a-f0-9]+$" },
+          "manifest": { "$ref": "#/definitions/namespaceObjectEntry" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "namespaceManifestSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "namespaceObjectEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "content_sha256",
+        "object_sha256",
+        "content_bytes",
+        "object_bytes",
+        "compression"
+      ],
+      "properties": {
+        "url": { "type": "string", "minLength": 1 },
+        "content_sha256": { "$ref": "#/definitions/namespaceManifestSha256" },
+        "object_sha256": { "$ref": "#/definitions/namespaceManifestSha256" },
+        "content_bytes": { "type": "integer", "minimum": 0 },
+        "object_bytes": { "type": "integer", "minimum": 0 },
+        "compression": { "enum": ["identity", "gzip"] }
+      }
+    }
+  }
+}

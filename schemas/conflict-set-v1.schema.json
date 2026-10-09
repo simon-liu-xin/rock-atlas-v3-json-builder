@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/conflict-set-v1.schema.json",
+  "title": "ConflictSet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["conflict_id", "claim_key", "assertion_ids", "resolution_status"],
+  "properties": {
+    "conflict_id": { "type": "string", "pattern": "^mw:conflict:[a-z0-9][a-z0-9-]*$" },
+    "claim_key": { "type": "string", "pattern": "^mw:claim:[a-z0-9][a-z0-9-]*$" },
+    "assertion_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^mw:assertion:" }
+    },
+    "resolution_status": { "enum": ["unresolved", "resolved", "superseded"] }
+  }
+}

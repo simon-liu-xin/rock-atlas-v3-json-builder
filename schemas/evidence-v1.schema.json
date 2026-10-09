@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/evidence-v1.schema.json",
+  "title": "EvidenceRecord v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "source_dataset",
+    "source_record_id",
+    "source_url",
+    "claim",
+    "retrieved_at",
+    "snapshot_version",
+    "license_partition"
+  ],
+  "properties": {
+    "evidence_id": { "type": "string", "pattern": "^mw:evidence:[a-z0-9][a-z0-9-]*$" },
+    "source_dataset": { "type": "string", "minLength": 1 },
+    "source_record_id": { "type": "string", "minLength": 1 },
+    "source_url": {
+      "oneOf": [
+        { "type": "string", "format": "uri", "pattern": "^https://" },
+        { "type": "string", "pattern": "^docs/[A-Za-z0-9._/-]+(?:#[A-Za-z0-9._-]+)?$" }
+      ]
+    },
+    "claim": { "type": "string", "minLength": 1 },
+    "retrieved_at": { "type": "string", "format": "date-time" },
+    "snapshot_version": { "type": "string", "minLength": 1 },
+    "license_partition": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,0 +1,38 @@
+Music Wiki
+Copyright 2026 Music Wiki contributors
+
+This product is licensed under Apache License 2.0 and includes third-party
+software distributed under their respective licenses. This notice is
+informational and does not replace the license text shipped by each package.
+
+Bundled font:
+
+- Ioskeley Mono 2.0.0 - SIL Open Font License 1.1
+  Copyright (c) 2025, Ahmed Hatem (https://github.com/ahatem)
+  Source: https://github.com/ahatem/IoskeleyMono
+  Complete license: public/fonts/ioskeley-mono/OFL-1.1.txt
+
+Runtime dependencies:
+
+- React 19.2.8 - MIT
+- React DOM 19.2.8 - MIT
+- Three.js 0.185.1 - MIT
+- React Three Fiber 9.7.0 - MIT
+- Lucide React 1.28.0 - ISC
+- Ajv 8.20.0 - MIT
+- ajv-formats 3.0.1 - MIT
+
+Build, test, and development dependencies:
+
+- Vite 8.2.0 - MIT
+- Playwright 1.62.1 - Apache-2.0
+- axe-core Playwright 4.12.1 - MPL-2.0
+- pngjs 7.0.0 - MIT
+- json-schema-to-typescript 15.0.4 - MIT
+- TypeScript 7.0.2 - Apache-2.0
+- Vitest 4.1.10 - MIT
+
+Dependency source, copyright notices, and complete license texts are available
+in the installed packages and their upstream repositories. Music and graph
+data are not covered by the code license; see DATA-LICENSES.md and each pack
+manifest.

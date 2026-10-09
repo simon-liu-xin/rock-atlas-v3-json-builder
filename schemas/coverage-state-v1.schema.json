@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/coverage-state-v1.schema.json",
+  "title": "CoverageStateDescriptorV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "coverage_state",
+    "label_zh",
+    "label_en",
+    "explanation_zh",
+    "explanation_en",
+    "tone",
+    "can_explore",
+    "recovery_action"
+  ],
+  "properties": {
+    "coverage_state": {
+      "enum": [
+        "ready",
+        "partial",
+        "not_in_snapshot",
+        "not_reviewed",
+        "source_conflict",
+        "partition_loading",
+        "partition_failed",
+        "extension_not_installed"
+      ]
+    },
+    "label_zh": { "type": "string", "minLength": 2 },
+    "label_en": { "type": "string", "minLength": 2 },
+    "explanation_zh": { "type": "string", "minLength": 8 },
+    "explanation_en": { "type": "string", "minLength": 8 },
+    "tone": { "enum": ["success", "notice", "warning", "neutral", "loading", "error"] },
+    "can_explore": { "type": "boolean" },
+    "recovery_action": {
+      "enum": [
+        "none",
+        "open_evidence",
+        "load_snapshot",
+        "review_source",
+        "retry_partition",
+        "install_extension"
+      ]
+    }
+  }
+}

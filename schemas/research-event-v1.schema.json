@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/research-event-v1.schema.json",
+  "title": "ResearchEvent v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "study_id",
+    "assignment",
+    "event_id",
+    "event_type",
+    "occurred_at",
+    "path_id",
+    "action_id"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "study_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "assignment": { "enum": ["3d", "2d", "editorial"] },
+    "event_id": { "type": "string", "minLength": 1 },
+    "event_type": {
+      "enum": [
+        "path_opened",
+        "relation_opened",
+        "artist_opened",
+        "recording_opened",
+        "next_hop",
+        "share_created"
+      ]
+    },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "path_id": { "type": "string", "pattern": "^mw:path:[a-z0-9][a-z0-9-]*$" },
+    "action_id": {
+      "anyOf": [
+        { "type": "string", "pattern": "^mw:action:[a-z0-9][a-z0-9-]*$" },
+        { "type": "null" }
+      ]
+    }
+  }
+}

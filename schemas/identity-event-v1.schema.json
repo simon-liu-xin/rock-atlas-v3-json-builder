@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/identity-event-v1.schema.json",
+  "title": "IdentityEvent v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "event_type",
+    "source_entity_id",
+    "target_entity_ids",
+    "effective_snapshot",
+    "reason"
+  ],
+  "properties": {
+    "event_id": { "type": "string", "pattern": "^mw:identity-event:[a-z0-9][a-z0-9-]*$" },
+    "event_type": { "enum": ["split"] },
+    "source_entity_id": { "type": "string", "pattern": "^mw:(style|artist|release-group):" },
+    "target_entity_ids": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^mw:(style|artist|release-group):" }
+    },
+    "effective_snapshot": { "type": "string", "minLength": 1 },
+    "reason": { "type": "string", "minLength": 1 }
+  }
+}

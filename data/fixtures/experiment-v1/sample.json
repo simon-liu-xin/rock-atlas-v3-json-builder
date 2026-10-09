@@ -1,0 +1,4195 @@
+{
+  "artists": [
+    {
+      "canonical_name": "The Beatles",
+      "internal_id": "mw:artist:the-beatles",
+      "musicbrainz_mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "source_url": "https://musicbrainz.org/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+      "style_id": "mw:style:rock"
+    },
+    {
+      "canonical_name": "The Rolling Stones",
+      "internal_id": "mw:artist:the-rolling-stones",
+      "musicbrainz_mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+      "source_url": "https://musicbrainz.org/artist/b071f9fa-14b0-4217-8e97-eb41da73f598",
+      "style_id": "mw:style:rock"
+    },
+    {
+      "canonical_name": "The Who",
+      "internal_id": "mw:artist:the-who",
+      "musicbrainz_mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+      "source_url": "https://musicbrainz.org/artist/9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+      "style_id": "mw:style:rock"
+    },
+    {
+      "canonical_name": "The Kinks",
+      "internal_id": "mw:artist:the-kinks",
+      "musicbrainz_mbid": "17b53d9f-5c63-4a09-a593-dde4608e0db9",
+      "source_url": "https://musicbrainz.org/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9",
+      "style_id": "mw:style:rock"
+    },
+    {
+      "canonical_name": "Creedence Clearwater Revival",
+      "internal_id": "mw:artist:creedence-clearwater-revival",
+      "musicbrainz_mbid": "109958eb-a335-4c5e-907e-597ff4c6af46",
+      "source_url": "https://musicbrainz.org/artist/109958eb-a335-4c5e-907e-597ff4c6af46",
+      "style_id": "mw:style:rock"
+    },
+    {
+      "canonical_name": "Chuck Berry",
+      "internal_id": "mw:artist:chuck-berry",
+      "musicbrainz_mbid": "592a3b6d-c42b-4567-99c9-ecf63bd66499",
+      "source_url": "https://musicbrainz.org/artist/592a3b6d-c42b-4567-99c9-ecf63bd66499",
+      "style_id": "mw:style:rock-and-roll"
+    },
+    {
+      "canonical_name": "Little Richard",
+      "internal_id": "mw:artist:little-richard",
+      "musicbrainz_mbid": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+      "source_url": "https://musicbrainz.org/artist/95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
+      "style_id": "mw:style:rock-and-roll"
+    },
+    {
+      "canonical_name": "Jerry Lee Lewis",
+      "internal_id": "mw:artist:jerry-lee-lewis",
+      "musicbrainz_mbid": "b59ac58d-036e-4bba-8112-c32a34c4575b",
+      "source_url": "https://musicbrainz.org/artist/b59ac58d-036e-4bba-8112-c32a34c4575b",
+      "style_id": "mw:style:rock-and-roll"
+    },
+    {
+      "canonical_name": "Buddy Holly",
+      "internal_id": "mw:artist:buddy-holly",
+      "musicbrainz_mbid": "d352f5dd-3023-4565-a7bb-52396bf8821d",
+      "source_url": "https://musicbrainz.org/artist/d352f5dd-3023-4565-a7bb-52396bf8821d",
+      "style_id": "mw:style:rock-and-roll"
+    },
+    {
+      "canonical_name": "Bo Diddley",
+      "internal_id": "mw:artist:bo-diddley",
+      "musicbrainz_mbid": "bf659d74-0b61-488c-8a7d-594f43bed9e0",
+      "source_url": "https://musicbrainz.org/artist/bf659d74-0b61-488c-8a7d-594f43bed9e0",
+      "style_id": "mw:style:rock-and-roll"
+    },
+    {
+      "canonical_name": "Jefferson Airplane",
+      "internal_id": "mw:artist:jefferson-airplane",
+      "musicbrainz_mbid": "39c2a93d-9afa-4a22-9bba-c087ab056e1c",
+      "source_url": "https://musicbrainz.org/artist/39c2a93d-9afa-4a22-9bba-c087ab056e1c",
+      "style_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "canonical_name": "The Doors",
+      "internal_id": "mw:artist:the-doors",
+      "musicbrainz_mbid": "9efff43b-3b29-4082-824e-bc82f646f93d",
+      "source_url": "https://musicbrainz.org/artist/9efff43b-3b29-4082-824e-bc82f646f93d",
+      "style_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "canonical_name": "13th Floor Elevators",
+      "internal_id": "mw:artist:13th-floor-elevators",
+      "musicbrainz_mbid": "1964494f-9f1a-41c1-b054-80ef3b95025c",
+      "source_url": "https://musicbrainz.org/artist/1964494f-9f1a-41c1-b054-80ef3b95025c",
+      "style_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "canonical_name": "Country Joe and the Fish",
+      "internal_id": "mw:artist:country-joe-and-the-fish",
+      "musicbrainz_mbid": "5c57506f-9967-4503-9dc0-0b9254b6697b",
+      "source_url": "https://musicbrainz.org/artist/5c57506f-9967-4503-9dc0-0b9254b6697b",
+      "style_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "canonical_name": "Spirit",
+      "internal_id": "mw:artist:spirit",
+      "musicbrainz_mbid": "ca5db97b-ba17-4e85-a876-46065e2052b3",
+      "source_url": "https://musicbrainz.org/artist/ca5db97b-ba17-4e85-a876-46065e2052b3",
+      "style_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "canonical_name": "King Crimson",
+      "internal_id": "mw:artist:king-crimson",
+      "musicbrainz_mbid": "b38225b8-8e5f-42aa-bcdc-7bae5b5bdab3",
+      "source_url": "https://musicbrainz.org/artist/b38225b8-8e5f-42aa-bcdc-7bae5b5bdab3",
+      "style_id": "mw:style:progressive-rock"
+    },
+    {
+      "canonical_name": "Yes",
+      "internal_id": "mw:artist:yes",
+      "musicbrainz_mbid": "c1d4f2ba-cf39-460c-9528-6b827d3417a1",
+      "source_url": "https://musicbrainz.org/artist/c1d4f2ba-cf39-460c-9528-6b827d3417a1",
+      "style_id": "mw:style:progressive-rock"
+    },
+    {
+      "canonical_name": "Genesis",
+      "internal_id": "mw:artist:genesis",
+      "musicbrainz_mbid": "8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "source_url": "https://musicbrainz.org/artist/8e3fcd7d-bda1-4ca0-b987-b8528d2ee74e",
+      "style_id": "mw:style:progressive-rock"
+    },
+    {
+      "canonical_name": "Emerson, Lake & Palmer",
+      "internal_id": "mw:artist:emerson-lake-and-palmer",
+      "musicbrainz_mbid": "ad996aef-cc1c-42ac-af5c-619c370f4b8a",
+      "source_url": "https://musicbrainz.org/artist/ad996aef-cc1c-42ac-af5c-619c370f4b8a",
+      "style_id": "mw:style:progressive-rock"
+    },
+    {
+      "canonical_name": "Gentle Giant",
+      "internal_id": "mw:artist:gentle-giant",
+      "musicbrainz_mbid": "f795c501-1c41-4be2-bc2a-875eba75aa31",
+      "source_url": "https://musicbrainz.org/artist/f795c501-1c41-4be2-bc2a-875eba75aa31",
+      "style_id": "mw:style:progressive-rock"
+    },
+    {
+      "canonical_name": "Led Zeppelin",
+      "internal_id": "mw:artist:led-zeppelin",
+      "musicbrainz_mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+      "source_url": "https://musicbrainz.org/artist/678d88b2-87b0-403b-b63d-5da7465aecc3",
+      "style_id": "mw:style:hard-rock"
+    },
+    {
+      "canonical_name": "Deep Purple",
+      "internal_id": "mw:artist:deep-purple",
+      "musicbrainz_mbid": "79491354-3d83-40e3-9d8e-7592d58d790a",
+      "source_url": "https://musicbrainz.org/artist/79491354-3d83-40e3-9d8e-7592d58d790a",
+      "style_id": "mw:style:hard-rock"
+    },
+    {
+      "canonical_name": "AC/DC",
+      "internal_id": "mw:artist:ac-dc",
+      "musicbrainz_mbid": "66c662b6-6e2f-4930-8610-912e24c63ed1",
+      "source_url": "https://musicbrainz.org/artist/66c662b6-6e2f-4930-8610-912e24c63ed1",
+      "style_id": "mw:style:hard-rock"
+    },
+    {
+      "canonical_name": "Aerosmith",
+      "internal_id": "mw:artist:aerosmith",
+      "musicbrainz_mbid": "3d2b98e5-556f-4451-a3ff-c50ea18d57cb",
+      "source_url": "https://musicbrainz.org/artist/3d2b98e5-556f-4451-a3ff-c50ea18d57cb",
+      "style_id": "mw:style:hard-rock"
+    },
+    {
+      "canonical_name": "Van Halen",
+      "internal_id": "mw:artist:van-halen",
+      "musicbrainz_mbid": "b665b768-0d83-4363-950c-31ed39317c15",
+      "source_url": "https://musicbrainz.org/artist/b665b768-0d83-4363-950c-31ed39317c15",
+      "style_id": "mw:style:hard-rock"
+    },
+    {
+      "canonical_name": "Black Sabbath",
+      "internal_id": "mw:artist:black-sabbath",
+      "musicbrainz_mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+      "source_url": "https://musicbrainz.org/artist/5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+      "style_id": "mw:style:heavy-metal"
+    },
+    {
+      "canonical_name": "Judas Priest",
+      "internal_id": "mw:artist:judas-priest",
+      "musicbrainz_mbid": "6b335658-22c8-485d-93de-0bc29a1d0349",
+      "source_url": "https://musicbrainz.org/artist/6b335658-22c8-485d-93de-0bc29a1d0349",
+      "style_id": "mw:style:heavy-metal"
+    },
+    {
+      "canonical_name": "Iron Maiden",
+      "internal_id": "mw:artist:iron-maiden",
+      "musicbrainz_mbid": "ca891d65-d9b0-4258-89f7-e6ba29d83767",
+      "source_url": "https://musicbrainz.org/artist/ca891d65-d9b0-4258-89f7-e6ba29d83767",
+      "style_id": "mw:style:heavy-metal"
+    },
+    {
+      "canonical_name": "Motörhead",
+      "internal_id": "mw:artist:motorhead",
+      "musicbrainz_mbid": "57961a97-3796-4bf7-9f02-a985a8979ae9",
+      "source_url": "https://musicbrainz.org/artist/57961a97-3796-4bf7-9f02-a985a8979ae9",
+      "style_id": "mw:style:heavy-metal"
+    },
+    {
+      "canonical_name": "Dio",
+      "internal_id": "mw:artist:dio",
+      "musicbrainz_mbid": "c55193fb-f5d2-4839-a263-4c044fca1456",
+      "source_url": "https://musicbrainz.org/artist/c55193fb-f5d2-4839-a263-4c044fca1456",
+      "style_id": "mw:style:heavy-metal"
+    },
+    {
+      "canonical_name": "Ramones",
+      "internal_id": "mw:artist:ramones",
+      "musicbrainz_mbid": "d6ed7887-a401-47a8-893c-34b967444d26",
+      "source_url": "https://musicbrainz.org/artist/d6ed7887-a401-47a8-893c-34b967444d26",
+      "style_id": "mw:style:punk-rock"
+    },
+    {
+      "canonical_name": "Sex Pistols",
+      "internal_id": "mw:artist:sex-pistols",
+      "musicbrainz_mbid": "e5db18cb-4b1f-496d-a308-548b611090d3",
+      "source_url": "https://musicbrainz.org/artist/e5db18cb-4b1f-496d-a308-548b611090d3",
+      "style_id": "mw:style:punk-rock"
+    },
+    {
+      "canonical_name": "The Clash",
+      "internal_id": "mw:artist:the-clash",
+      "musicbrainz_mbid": "8f92558c-2baa-4758-8c38-615519e9deda",
+      "source_url": "https://musicbrainz.org/artist/8f92558c-2baa-4758-8c38-615519e9deda",
+      "style_id": "mw:style:punk-rock"
+    },
+    {
+      "canonical_name": "Dead Kennedys",
+      "internal_id": "mw:artist:dead-kennedys",
+      "musicbrainz_mbid": "37c78aeb-d196-42b5-b991-6afb4fc9bc2e",
+      "source_url": "https://musicbrainz.org/artist/37c78aeb-d196-42b5-b991-6afb4fc9bc2e",
+      "style_id": "mw:style:punk-rock"
+    },
+    {
+      "canonical_name": "Bad Brains",
+      "internal_id": "mw:artist:bad-brains",
+      "musicbrainz_mbid": "e919b253-da5b-4aae-a444-6a368376a2d6",
+      "source_url": "https://musicbrainz.org/artist/e919b253-da5b-4aae-a444-6a368376a2d6",
+      "style_id": "mw:style:punk-rock"
+    },
+    {
+      "canonical_name": "Joy Division",
+      "internal_id": "mw:artist:joy-division",
+      "musicbrainz_mbid": "9a58fda3-f4ed-4080-a3a5-f457aac9fcdd",
+      "source_url": "https://musicbrainz.org/artist/9a58fda3-f4ed-4080-a3a5-f457aac9fcdd",
+      "style_id": "mw:style:post-punk"
+    },
+    {
+      "canonical_name": "Gang of Four",
+      "internal_id": "mw:artist:gang-of-four",
+      "musicbrainz_mbid": "d8661c02-f423-4d72-8044-40ff05daf7a1",
+      "source_url": "https://musicbrainz.org/artist/d8661c02-f423-4d72-8044-40ff05daf7a1",
+      "style_id": "mw:style:post-punk"
+    },
+    {
+      "canonical_name": "Siouxsie and the Banshees",
+      "internal_id": "mw:artist:siouxsie-and-the-banshees",
+      "musicbrainz_mbid": "78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2",
+      "source_url": "https://musicbrainz.org/artist/78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2",
+      "style_id": "mw:style:post-punk"
+    },
+    {
+      "canonical_name": "Public Image Ltd",
+      "internal_id": "mw:artist:public-image-ltd",
+      "musicbrainz_mbid": "68950696-ee9a-49b2-a8c2-d1d6c19355cc",
+      "source_url": "https://musicbrainz.org/artist/68950696-ee9a-49b2-a8c2-d1d6c19355cc",
+      "style_id": "mw:style:post-punk"
+    },
+    {
+      "canonical_name": "Wire",
+      "internal_id": "mw:artist:wire",
+      "musicbrainz_mbid": "7f2a8098-50e3-451c-8696-c5d9f64f4762",
+      "source_url": "https://musicbrainz.org/artist/7f2a8098-50e3-451c-8696-c5d9f64f4762",
+      "style_id": "mw:style:post-punk"
+    },
+    {
+      "canonical_name": "R.E.M.",
+      "internal_id": "mw:artist:rem",
+      "musicbrainz_mbid": "ea4dfa26-f633-4da6-a52a-f49ea4897b58",
+      "source_url": "https://musicbrainz.org/artist/ea4dfa26-f633-4da6-a52a-f49ea4897b58",
+      "style_id": "mw:style:alternative-rock"
+    },
+    {
+      "canonical_name": "Pixies",
+      "internal_id": "mw:artist:pixies",
+      "musicbrainz_mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+      "source_url": "https://musicbrainz.org/artist/b6b2bb8d-54a9-491f-9607-7b546023b433",
+      "style_id": "mw:style:alternative-rock"
+    },
+    {
+      "canonical_name": "The Smashing Pumpkins",
+      "internal_id": "mw:artist:the-smashing-pumpkins",
+      "musicbrainz_mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+      "source_url": "https://musicbrainz.org/artist/ba0d6274-db14-4ef5-b28d-657ebde1a396",
+      "style_id": "mw:style:alternative-rock"
+    },
+    {
+      "canonical_name": "Radiohead",
+      "internal_id": "mw:artist:radiohead",
+      "musicbrainz_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "source_url": "https://musicbrainz.org/artist/a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "style_id": "mw:style:alternative-rock"
+    },
+    {
+      "canonical_name": "Jane’s Addiction",
+      "internal_id": "mw:artist:janes-addiction",
+      "musicbrainz_mbid": "e3434cc7-d348-491a-9dc8-325af3d9086d",
+      "source_url": "https://musicbrainz.org/artist/e3434cc7-d348-491a-9dc8-325af3d9086d",
+      "style_id": "mw:style:alternative-rock"
+    },
+    {
+      "canonical_name": "Pavement",
+      "internal_id": "mw:artist:pavement",
+      "musicbrainz_mbid": "36bfa85f-737b-41db-a8fc-b8825850ffc3",
+      "source_url": "https://musicbrainz.org/artist/36bfa85f-737b-41db-a8fc-b8825850ffc3",
+      "style_id": "mw:style:indie-rock"
+    },
+    {
+      "canonical_name": "Sonic Youth",
+      "internal_id": "mw:artist:sonic-youth",
+      "musicbrainz_mbid": "5cbef01b-cc35-4f52-af7b-d0df0c4f61b9",
+      "source_url": "https://musicbrainz.org/artist/5cbef01b-cc35-4f52-af7b-d0df0c4f61b9",
+      "style_id": "mw:style:indie-rock"
+    },
+    {
+      "canonical_name": "Dinosaur Jr.",
+      "internal_id": "mw:artist:dinosaur-jr",
+      "musicbrainz_mbid": "77c167d2-4965-4421-830a-9815e4956475",
+      "source_url": "https://musicbrainz.org/artist/77c167d2-4965-4421-830a-9815e4956475",
+      "style_id": "mw:style:indie-rock"
+    },
+    {
+      "canonical_name": "Yo La Tengo",
+      "internal_id": "mw:artist:yo-la-tengo",
+      "musicbrainz_mbid": "3f542031-b054-454d-b57b-812fa2a81b11",
+      "source_url": "https://musicbrainz.org/artist/3f542031-b054-454d-b57b-812fa2a81b11",
+      "style_id": "mw:style:indie-rock"
+    },
+    {
+      "canonical_name": "Modest Mouse",
+      "internal_id": "mw:artist:modest-mouse",
+      "musicbrainz_mbid": "a96ac800-bfcb-412a-8a63-0a98df600700",
+      "source_url": "https://musicbrainz.org/artist/a96ac800-bfcb-412a-8a63-0a98df600700",
+      "style_id": "mw:style:indie-rock"
+    },
+    {
+      "canonical_name": "Nirvana",
+      "internal_id": "mw:artist:nirvana",
+      "musicbrainz_mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "source_url": "https://musicbrainz.org/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+      "style_id": "mw:style:grunge"
+    },
+    {
+      "canonical_name": "Pearl Jam",
+      "internal_id": "mw:artist:pearl-jam",
+      "musicbrainz_mbid": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+      "source_url": "https://musicbrainz.org/artist/83b9cbe7-9857-49e2-ab8e-b57b01038103",
+      "style_id": "mw:style:grunge"
+    },
+    {
+      "canonical_name": "Soundgarden",
+      "internal_id": "mw:artist:soundgarden",
+      "musicbrainz_mbid": "153c9281-268f-4cf3-8938-f5a4593e5df4",
+      "source_url": "https://musicbrainz.org/artist/153c9281-268f-4cf3-8938-f5a4593e5df4",
+      "style_id": "mw:style:grunge"
+    },
+    {
+      "canonical_name": "Alice in Chains",
+      "internal_id": "mw:artist:alice-in-chains",
+      "musicbrainz_mbid": "4bd95eea-b9f6-4d70-a36c-cfea77431553",
+      "source_url": "https://musicbrainz.org/artist/4bd95eea-b9f6-4d70-a36c-cfea77431553",
+      "style_id": "mw:style:grunge"
+    },
+    {
+      "canonical_name": "Mudhoney",
+      "internal_id": "mw:artist:mudhoney",
+      "musicbrainz_mbid": "e675295a-1efe-4247-aa3b-53b78d0cdffc",
+      "source_url": "https://musicbrainz.org/artist/e675295a-1efe-4247-aa3b-53b78d0cdffc",
+      "style_id": "mw:style:grunge"
+    },
+    {
+      "canonical_name": "My Bloody Valentine",
+      "internal_id": "mw:artist:my-bloody-valentine",
+      "musicbrainz_mbid": "8ca01f46-53ac-4af2-8516-55a909c0905e",
+      "source_url": "https://musicbrainz.org/artist/8ca01f46-53ac-4af2-8516-55a909c0905e",
+      "style_id": "mw:style:shoegaze"
+    },
+    {
+      "canonical_name": "Slowdive",
+      "internal_id": "mw:artist:slowdive",
+      "musicbrainz_mbid": "a16371b9-7d36-497a-a9d4-42b0a0440c5e",
+      "source_url": "https://musicbrainz.org/artist/a16371b9-7d36-497a-a9d4-42b0a0440c5e",
+      "style_id": "mw:style:shoegaze"
+    },
+    {
+      "canonical_name": "Ride",
+      "internal_id": "mw:artist:ride",
+      "musicbrainz_mbid": "3f575ecd-627d-4f08-a89f-abd46d469c7e",
+      "source_url": "https://musicbrainz.org/artist/3f575ecd-627d-4f08-a89f-abd46d469c7e",
+      "style_id": "mw:style:shoegaze"
+    },
+    {
+      "canonical_name": "Lush",
+      "internal_id": "mw:artist:lush",
+      "musicbrainz_mbid": "697801d1-68b2-4413-a7e4-0ef507d21cc1",
+      "source_url": "https://musicbrainz.org/artist/697801d1-68b2-4413-a7e4-0ef507d21cc1",
+      "style_id": "mw:style:shoegaze"
+    },
+    {
+      "canonical_name": "Chapterhouse",
+      "internal_id": "mw:artist:chapterhouse",
+      "musicbrainz_mbid": "c95d5fb3-03d4-4b5e-93da-a57bd7e26db0",
+      "source_url": "https://musicbrainz.org/artist/c95d5fb3-03d4-4b5e-93da-a57bd7e26db0",
+      "style_id": "mw:style:shoegaze"
+    },
+    {
+      "canonical_name": "Bauhaus",
+      "internal_id": "mw:artist:bauhaus",
+      "musicbrainz_mbid": "0688add2-c282-4ee2-ba61-223ffdb3c201",
+      "source_url": "https://musicbrainz.org/artist/0688add2-c282-4ee2-ba61-223ffdb3c201",
+      "style_id": "mw:style:gothic-rock"
+    },
+    {
+      "canonical_name": "The Sisters of Mercy",
+      "internal_id": "mw:artist:the-sisters-of-mercy",
+      "musicbrainz_mbid": "553d8166-27b0-49fe-b8e4-89a984e2c375",
+      "source_url": "https://musicbrainz.org/artist/553d8166-27b0-49fe-b8e4-89a984e2c375",
+      "style_id": "mw:style:gothic-rock"
+    },
+    {
+      "canonical_name": "The Mission",
+      "internal_id": "mw:artist:the-mission",
+      "musicbrainz_mbid": "d85e95a3-07c7-4c04-a411-234290615113",
+      "source_url": "https://musicbrainz.org/artist/d85e95a3-07c7-4c04-a411-234290615113",
+      "style_id": "mw:style:gothic-rock"
+    },
+    {
+      "canonical_name": "Fields of the Nephilim",
+      "internal_id": "mw:artist:fields-of-the-nephilim",
+      "musicbrainz_mbid": "a262543f-6ab4-4ac7-86f3-4fc09ff56f3b",
+      "source_url": "https://musicbrainz.org/artist/a262543f-6ab4-4ac7-86f3-4fc09ff56f3b",
+      "style_id": "mw:style:gothic-rock"
+    },
+    {
+      "canonical_name": "Christian Death",
+      "internal_id": "mw:artist:christian-death",
+      "musicbrainz_mbid": "2a09f8e7-1138-4030-96a3-fddfdf82127b",
+      "source_url": "https://musicbrainz.org/artist/2a09f8e7-1138-4030-96a3-fddfdf82127b",
+      "style_id": "mw:style:gothic-rock"
+    },
+    {
+      "canonical_name": "David Bowie",
+      "internal_id": "mw:artist:david-bowie",
+      "musicbrainz_mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+      "source_url": "https://musicbrainz.org/artist/5441c29d-3602-4898-b1a1-b77fa23b8e50",
+      "style_id": "mw:style:glam-rock"
+    },
+    {
+      "canonical_name": "T. Rex",
+      "internal_id": "mw:artist:t-rex",
+      "musicbrainz_mbid": "c842d29f-a297-48cd-bb71-4f77fd672b16",
+      "source_url": "https://musicbrainz.org/artist/c842d29f-a297-48cd-bb71-4f77fd672b16",
+      "style_id": "mw:style:glam-rock"
+    },
+    {
+      "canonical_name": "Roxy Music",
+      "internal_id": "mw:artist:roxy-music",
+      "musicbrainz_mbid": "331ce348-1b08-40b9-8ed7-0763b92bd003",
+      "source_url": "https://musicbrainz.org/artist/331ce348-1b08-40b9-8ed7-0763b92bd003",
+      "style_id": "mw:style:glam-rock"
+    },
+    {
+      "canonical_name": "Sweet",
+      "internal_id": "mw:artist:sweet",
+      "musicbrainz_mbid": "dc73bb40-b697-4df9-a2ec-0555bebdba75",
+      "source_url": "https://musicbrainz.org/artist/dc73bb40-b697-4df9-a2ec-0555bebdba75",
+      "style_id": "mw:style:glam-rock"
+    },
+    {
+      "canonical_name": "Slade",
+      "internal_id": "mw:artist:slade",
+      "musicbrainz_mbid": "2e700147-56a3-416b-a95d-381ea42f947f",
+      "source_url": "https://musicbrainz.org/artist/2e700147-56a3-416b-a95d-381ea42f947f",
+      "style_id": "mw:style:glam-rock"
+    },
+    {
+      "canonical_name": "The Sonics",
+      "internal_id": "mw:artist:the-sonics",
+      "musicbrainz_mbid": "16346cf4-4d2b-40ec-8393-0fc7296d92fe",
+      "source_url": "https://musicbrainz.org/artist/16346cf4-4d2b-40ec-8393-0fc7296d92fe",
+      "style_id": "mw:style:garage-rock"
+    },
+    {
+      "canonical_name": "The Seeds",
+      "internal_id": "mw:artist:the-seeds",
+      "musicbrainz_mbid": "f706bac1-a02a-4569-9164-9f3371e6fa74",
+      "source_url": "https://musicbrainz.org/artist/f706bac1-a02a-4569-9164-9f3371e6fa74",
+      "style_id": "mw:style:garage-rock"
+    },
+    {
+      "canonical_name": "The Stooges",
+      "internal_id": "mw:artist:the-stooges",
+      "musicbrainz_mbid": "794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+      "source_url": "https://musicbrainz.org/artist/794c6bf2-3241-416f-9b8f-24e2d84a1c4b",
+      "style_id": "mw:style:garage-rock"
+    },
+    {
+      "canonical_name": "MC5",
+      "internal_id": "mw:artist:mc5",
+      "musicbrainz_mbid": "08b736bb-1c82-40b4-8b0b-49e2182a067a",
+      "source_url": "https://musicbrainz.org/artist/08b736bb-1c82-40b4-8b0b-49e2182a067a",
+      "style_id": "mw:style:garage-rock"
+    },
+    {
+      "canonical_name": "The Standells",
+      "internal_id": "mw:artist:the-standells",
+      "musicbrainz_mbid": "795b83a0-9315-4201-aa82-675a1699a5c6",
+      "source_url": "https://musicbrainz.org/artist/795b83a0-9315-4201-aa82-675a1699a5c6",
+      "style_id": "mw:style:garage-rock"
+    },
+    {
+      "canonical_name": "Can",
+      "internal_id": "mw:artist:can",
+      "musicbrainz_mbid": "13501c7d-d181-45ba-af52-5f101d8516a0",
+      "source_url": "https://musicbrainz.org/artist/13501c7d-d181-45ba-af52-5f101d8516a0",
+      "style_id": "mw:style:krautrock"
+    },
+    {
+      "canonical_name": "Neu!",
+      "internal_id": "mw:artist:neu",
+      "musicbrainz_mbid": "adec1fc3-83c1-48f7-9e49-8347ac6d40b0",
+      "source_url": "https://musicbrainz.org/artist/adec1fc3-83c1-48f7-9e49-8347ac6d40b0",
+      "style_id": "mw:style:krautrock"
+    },
+    {
+      "canonical_name": "Faust",
+      "internal_id": "mw:artist:faust",
+      "musicbrainz_mbid": "0568e321-d42b-4da4-a025-2643c9fc13dd",
+      "source_url": "https://musicbrainz.org/artist/0568e321-d42b-4da4-a025-2643c9fc13dd",
+      "style_id": "mw:style:krautrock"
+    },
+    {
+      "canonical_name": "Kraftwerk",
+      "internal_id": "mw:artist:kraftwerk",
+      "musicbrainz_mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032",
+      "source_url": "https://musicbrainz.org/artist/5700dcd4-c139-4f31-aa3e-6382b9af9032",
+      "style_id": "mw:style:krautrock"
+    },
+    {
+      "canonical_name": "Amon Düül II",
+      "internal_id": "mw:artist:amon-duul-ii",
+      "musicbrainz_mbid": "9d78c6da-a415-4e1d-a55d-5e37b3bbc65d",
+      "source_url": "https://musicbrainz.org/artist/9d78c6da-a415-4e1d-a55d-5e37b3bbc65d",
+      "style_id": "mw:style:krautrock"
+    },
+    {
+      "canonical_name": "Slint",
+      "internal_id": "mw:artist:slint",
+      "musicbrainz_mbid": "2869c510-2679-4a3f-bf15-e5e8b49f2f28",
+      "source_url": "https://musicbrainz.org/artist/2869c510-2679-4a3f-bf15-e5e8b49f2f28",
+      "style_id": "mw:style:post-rock"
+    },
+    {
+      "canonical_name": "Tortoise",
+      "internal_id": "mw:artist:tortoise",
+      "musicbrainz_mbid": "e0953daa-860f-4dc8-9f1a-b12587cdaf17",
+      "source_url": "https://musicbrainz.org/artist/e0953daa-860f-4dc8-9f1a-b12587cdaf17",
+      "style_id": "mw:style:post-rock"
+    },
+    {
+      "canonical_name": "Godspeed You! Black Emperor",
+      "internal_id": "mw:artist:godspeed-you-black-emperor",
+      "musicbrainz_mbid": "3648db01-b29d-4ab9-835c-83f6a5068fe4",
+      "source_url": "https://musicbrainz.org/artist/3648db01-b29d-4ab9-835c-83f6a5068fe4",
+      "style_id": "mw:style:post-rock"
+    },
+    {
+      "canonical_name": "Mogwai",
+      "internal_id": "mw:artist:mogwai",
+      "musicbrainz_mbid": "d700b3f5-45af-4d02-95ed-57d301bda93e",
+      "source_url": "https://musicbrainz.org/artist/d700b3f5-45af-4d02-95ed-57d301bda93e",
+      "style_id": "mw:style:post-rock"
+    },
+    {
+      "canonical_name": "Explosions in the Sky",
+      "internal_id": "mw:artist:explosions-in-the-sky",
+      "musicbrainz_mbid": "4236acde-2ce2-441c-a3d4-38d55f1b5474",
+      "source_url": "https://musicbrainz.org/artist/4236acde-2ce2-441c-a3d4-38d55f1b5474",
+      "style_id": "mw:style:post-rock"
+    },
+    {
+      "canonical_name": "Bikini Kill",
+      "internal_id": "mw:artist:bikini-kill",
+      "musicbrainz_mbid": "1397d045-1603-41fc-80b9-712c18360145",
+      "source_url": "https://musicbrainz.org/artist/1397d045-1603-41fc-80b9-712c18360145",
+      "style_id": "mw:style:riot-grrrl"
+    },
+    {
+      "canonical_name": "Bratmobile",
+      "internal_id": "mw:artist:bratmobile",
+      "musicbrainz_mbid": "d6dfbc0b-d737-49df-be8e-517b85985bcb",
+      "source_url": "https://musicbrainz.org/artist/d6dfbc0b-d737-49df-be8e-517b85985bcb",
+      "style_id": "mw:style:riot-grrrl"
+    },
+    {
+      "canonical_name": "Sleater‐Kinney",
+      "internal_id": "mw:artist:sleater-kinney",
+      "musicbrainz_mbid": "e36e78eb-3ace-4acd-882c-16789e700ab7",
+      "source_url": "https://musicbrainz.org/artist/e36e78eb-3ace-4acd-882c-16789e700ab7",
+      "style_id": "mw:style:riot-grrrl"
+    },
+    {
+      "canonical_name": "Huggy Bear",
+      "internal_id": "mw:artist:huggy-bear",
+      "musicbrainz_mbid": "9cf16514-25d6-46c2-8cc8-a8e857e7a3f2",
+      "source_url": "https://musicbrainz.org/artist/9cf16514-25d6-46c2-8cc8-a8e857e7a3f2",
+      "style_id": "mw:style:riot-grrrl"
+    },
+    {
+      "canonical_name": "Heavens to Betsy",
+      "internal_id": "mw:artist:heavens-to-betsy",
+      "musicbrainz_mbid": "8716a313-c6df-440c-9b74-370e8d79728e",
+      "source_url": "https://musicbrainz.org/artist/8716a313-c6df-440c-9b74-370e8d79728e",
+      "style_id": "mw:style:riot-grrrl"
+    },
+    {
+      "canonical_name": "Moğollar",
+      "internal_id": "mw:artist:mogollar",
+      "musicbrainz_mbid": "76693ade-bd4a-4338-b2b7-3a494b1fb5fe",
+      "source_url": "https://musicbrainz.org/artist/76693ade-bd4a-4338-b2b7-3a494b1fb5fe",
+      "style_id": "mw:style:anatolian-rock"
+    },
+    {
+      "canonical_name": "Cem Karaca",
+      "internal_id": "mw:artist:cem-karaca",
+      "musicbrainz_mbid": "802247cc-77a2-4671-a02d-ad25bf90e23c",
+      "source_url": "https://musicbrainz.org/artist/802247cc-77a2-4671-a02d-ad25bf90e23c",
+      "style_id": "mw:style:anatolian-rock"
+    },
+    {
+      "canonical_name": "Erkin Koray",
+      "internal_id": "mw:artist:erkin-koray",
+      "musicbrainz_mbid": "779fce7e-c99e-4d0c-bfb1-af7aa1c34e80",
+      "source_url": "https://musicbrainz.org/artist/779fce7e-c99e-4d0c-bfb1-af7aa1c34e80",
+      "style_id": "mw:style:anatolian-rock"
+    },
+    {
+      "canonical_name": "Selda Bağcan",
+      "internal_id": "mw:artist:selda-bagcan",
+      "musicbrainz_mbid": "5e51e09d-0713-4595-b858-d7e887238825",
+      "source_url": "https://musicbrainz.org/artist/5e51e09d-0713-4595-b858-d7e887238825",
+      "style_id": "mw:style:anatolian-rock"
+    },
+    {
+      "canonical_name": "Barış Manço",
+      "internal_id": "mw:artist:baris-manco",
+      "musicbrainz_mbid": "33736d61-e2a2-4070-88dd-ad2e173d174c",
+      "source_url": "https://musicbrainz.org/artist/33736d61-e2a2-4070-88dd-ad2e173d174c",
+      "style_id": "mw:style:anatolian-rock"
+    },
+    {
+      "canonical_name": "Santana",
+      "internal_id": "mw:artist:santana",
+      "musicbrainz_mbid": "9a3bf45c-347d-4630-894d-7cf3e8e0b632",
+      "source_url": "https://musicbrainz.org/artist/9a3bf45c-347d-4630-894d-7cf3e8e0b632",
+      "style_id": "mw:style:latin-rock"
+    },
+    {
+      "canonical_name": "Los Jaivas",
+      "internal_id": "mw:artist:los-jaivas",
+      "musicbrainz_mbid": "e3d766c2-aad2-469e-ac94-c90939f4a294",
+      "source_url": "https://musicbrainz.org/artist/e3d766c2-aad2-469e-ac94-c90939f4a294",
+      "style_id": "mw:style:latin-rock"
+    },
+    {
+      "canonical_name": "Soda Stereo",
+      "internal_id": "mw:artist:soda-stereo",
+      "musicbrainz_mbid": "3f8a5e5b-c24b-4068-9f1c-afad8829e06b",
+      "source_url": "https://musicbrainz.org/artist/3f8a5e5b-c24b-4068-9f1c-afad8829e06b",
+      "style_id": "mw:style:latin-rock"
+    },
+    {
+      "canonical_name": "Los Fabulosos Cadillacs",
+      "internal_id": "mw:artist:los-fabulosos-cadillacs",
+      "musicbrainz_mbid": "cfe85625-10af-46c1-99fb-765ed3a4f1ad",
+      "source_url": "https://musicbrainz.org/artist/cfe85625-10af-46c1-99fb-765ed3a4f1ad",
+      "style_id": "mw:style:latin-rock"
+    },
+    {
+      "canonical_name": "Aterciopelados",
+      "internal_id": "mw:artist:aterciopelados",
+      "musicbrainz_mbid": "0ba1966a-e471-4f98-85d7-8ac0c1f836f0",
+      "source_url": "https://musicbrainz.org/artist/0ba1966a-e471-4f98-85d7-8ac0c1f836f0",
+      "style_id": "mw:style:latin-rock"
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "DBpedia lists Heavy metal among Grunge's stylistic origins.",
+      "evidence_id": "mw:evidence:dbpedia-grunge-stylistic-origin-heavy-metal",
+      "license_partition": "rock-derived-cc-by-sa",
+      "retrieved_at": "2026-08-06T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "DBpedia",
+      "source_record_id": "dbr:Grunge dbp:stylisticOrigins dbr:Heavy_metal_music",
+      "source_url": "https://dbpedia.org/page/Grunge"
+    },
+    {
+      "claim": "Grunge 与 Punk Rock：编辑型比较轴；它是实验比较轴，不是已核验的历史事实。",
+      "evidence_id": "mw:evidence:editorial-grunge-associated-punk-rock",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Music Wiki experiment method",
+      "source_record_id": "experiment-v1#grunge-associated-punk-rock",
+      "source_url": "docs/experiments/product-validation-v1.md#editorial-associations"
+    },
+    {
+      "claim": "Riot Grrrl 与 Indie Rock：编辑型比较轴；它是实验比较轴，不是已核验的历史事实。",
+      "evidence_id": "mw:evidence:editorial-riot-grrrl-associated-indie-rock",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Music Wiki experiment method",
+      "source_record_id": "experiment-v1#riot-grrrl-associated-indie-rock",
+      "source_url": "docs/experiments/product-validation-v1.md#editorial-associations"
+    },
+    {
+      "claim": "Riot Grrrl 与 Post-Punk：编辑型比较轴；它是实验比较轴，不是已核验的历史事实。",
+      "evidence_id": "mw:evidence:editorial-riot-grrrl-associated-post-punk",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Music Wiki experiment method",
+      "source_record_id": "experiment-v1#riot-grrrl-associated-post-punk",
+      "source_url": "docs/experiments/product-validation-v1.md#editorial-associations"
+    },
+    {
+      "claim": "Shoegaze 与 Indie Rock：编辑型比较轴；它是实验比较轴，不是已核验的历史事实。",
+      "evidence_id": "mw:evidence:editorial-shoegaze-associated-indie-rock",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Music Wiki experiment method",
+      "source_record_id": "experiment-v1#shoegaze-associated-indie-rock",
+      "source_url": "docs/experiments/product-validation-v1.md#editorial-associations"
+    },
+    {
+      "claim": "Shoegaze 与 Psychedelic Rock：编辑型比较轴；它是实验比较轴，不是已核验的历史事实。",
+      "evidence_id": "mw:evidence:editorial-shoegaze-associated-psychedelic-rock",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Music Wiki experiment method",
+      "source_record_id": "experiment-v1#shoegaze-associated-psychedelic-rock",
+      "source_url": "docs/experiments/product-validation-v1.md#editorial-associations"
+    },
+    {
+      "claim": "Grunge is recorded as a subclass of Alternative Rock.",
+      "evidence_id": "mw:evidence:wikidata-q11365-p279-q11366",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q11365$b1920fb5-4ff8-0a4c-f70b-309fbdf01023",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11365.json"
+    },
+    {
+      "claim": "Alternative Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q11366-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "q11366$7e26f276-44ac-eb52-9ebf-1b1267ed6abb",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11366.json"
+    },
+    {
+      "claim": "Indie Rock is recorded as a subclass of Alternative Rock.",
+      "evidence_id": "mw:evidence:wikidata-q183504-p279-q11366",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q183504$50EFBDE9-DBB9-4101-B695-3724669E6AF4",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q183504.json"
+    },
+    {
+      "claim": "Latin Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q185162-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q185162$44ec564a-4768-3b1d-1de6-40a6bf363c7b",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q185162.json"
+    },
+    {
+      "claim": "Psychedelic Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q206159-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "q206159$b6c6d121-47e3-84e7-f237-effdb56ac265",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q206159.json"
+    },
+    {
+      "claim": "Garage Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q211573-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q211573$8c91a133-4608-5af6-cc1f-0a1b8a259dd6",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q211573.json"
+    },
+    {
+      "claim": "Shoegaze is recorded as a subclass of Alternative Rock.",
+      "evidence_id": "mw:evidence:wikidata-q272167-p279-q11366",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q272167$b302aec6-46e5-49bf-086c-3ab2e6cd4a3b",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q272167.json"
+    },
+    {
+      "claim": "Gothic Rock is recorded as a subclass of Alternative Rock.",
+      "evidence_id": "mw:evidence:wikidata-q485395-p279-q11366",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q485395$f8378c32-4e54-19eb-5531-d61097e5a4b0",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q485395.json"
+    },
+    {
+      "claim": "Gothic Rock is recorded as a subclass of Post-Punk.",
+      "evidence_id": "mw:evidence:wikidata-q485395-p279-q598929",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q485395$13a89940-4c30-452a-0a04-b306a5c15265",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q485395.json"
+    },
+    {
+      "claim": "Progressive Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q49451-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "q49451$EC3670BE-3584-4879-9FBF-CDC65B290D58",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q49451.json"
+    },
+    {
+      "claim": "Riot Grrrl is recorded as a subclass of Punk Rock.",
+      "evidence_id": "mw:evidence:wikidata-q677542-p279-q3071",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q677542$D91B1DD7-EA1D-421B-B729-FE2FCDB6786A",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q677542.json"
+    },
+    {
+      "claim": "Glam Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q76092-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q76092$5a99102c-4f10-d6b9-3479-7731b910e8ea",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q76092.json"
+    },
+    {
+      "claim": "Rock and Roll is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q7749-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "Q7749$F6F6153A-223C-43B7-B6B5-265652D8FF5A",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q7749.json"
+    },
+    {
+      "claim": "Hard Rock is recorded as a subclass of Rock.",
+      "evidence_id": "mw:evidence:wikidata-q83270-p279-q11399",
+      "license_partition": "rock-core-cc0",
+      "retrieved_at": "2026-08-01T00:00:00Z",
+      "snapshot_version": "experiment-v1",
+      "source_dataset": "Wikidata",
+      "source_record_id": "q83270$DD99A613-ECA3-42F7-A86C-390EE1214394",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q83270.json"
+    }
+  ],
+  "paths": [
+    {
+      "answer": {
+        "coverage_state": "partial",
+        "summary": "开放事实层记录 Grunge 属于 Alternative Rock，并把 Heavy Metal 列为其风格来源之一；Punk Rock 仍是待核验的编辑型比较轴。"
+      },
+      "artist_ids": [
+        "mw:artist:nirvana",
+        "mw:artist:pearl-jam",
+        "mw:artist:soundgarden",
+        "mw:artist:alice-in-chains"
+      ],
+      "next_path_id": "mw:path:shoegaze-texture",
+      "path_id": "mw:path:grunge-crossroads",
+      "question": {
+        "focus_id": "mw:style:grunge",
+        "text": "Grunge 为什么同时连接 Punk、Metal 和 Alternative？"
+      },
+      "recording_artist_id": "mw:artist:nirvana",
+      "relation_ids": [
+        "mw:relation:grunge-subgenre-alternative-rock",
+        "mw:relation:grunge-associated-punk-rock",
+        "mw:relation:grunge-influenced-by-heavy-metal"
+      ]
+    },
+    {
+      "answer": {
+        "coverage_state": "partial",
+        "summary": "开放事实层把 Shoegaze 连接到 Alternative Rock；Psychedelic Rock 与 Indie Rock 是用于检验声音和场景解释力的编辑型比较轴。"
+      },
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine",
+        "mw:artist:slowdive",
+        "mw:artist:ride",
+        "mw:artist:lush"
+      ],
+      "next_path_id": "mw:path:riot-grrrl-networks",
+      "path_id": "mw:path:shoegaze-texture",
+      "question": {
+        "focus_id": "mw:style:shoegaze",
+        "text": "Shoegaze 的声音空间如何连接 Alternative、Psychedelic 与 Indie？"
+      },
+      "recording_artist_id": "mw:artist:my-bloody-valentine",
+      "relation_ids": [
+        "mw:relation:shoegaze-subgenre-alternative-rock",
+        "mw:relation:shoegaze-associated-psychedelic-rock",
+        "mw:relation:shoegaze-associated-indie-rock"
+      ]
+    },
+    {
+      "answer": {
+        "coverage_state": "partial",
+        "summary": "开放事实层把 Riot Grrrl 连接到 Punk Rock；Indie Rock 与 Post-Punk 是用于检验社群和表达路径的编辑型比较轴。"
+      },
+      "artist_ids": [
+        "mw:artist:bikini-kill",
+        "mw:artist:bratmobile",
+        "mw:artist:sleater-kinney",
+        "mw:artist:huggy-bear"
+      ],
+      "next_path_id": "mw:path:grunge-crossroads",
+      "path_id": "mw:path:riot-grrrl-networks",
+      "question": {
+        "focus_id": "mw:style:riot-grrrl",
+        "text": "Riot Grrrl 如何把 Punk 的声音变成独立场景与政治网络？"
+      },
+      "recording_artist_id": "mw:artist:bikini-kill",
+      "relation_ids": [
+        "mw:relation:riot-grrrl-subgenre-punk-rock",
+        "mw:relation:riot-grrrl-associated-indie-rock",
+        "mw:relation:riot-grrrl-associated-post-punk"
+      ]
+    }
+  ],
+  "recordings": [
+    {
+      "artist_ids": [
+        "mw:artist:nirvana"
+      ],
+      "canonical_name": "Smells Like Teen Spirit",
+      "first_release_date": null,
+      "internal_id": "mw:recording:08421f5d-d56e-44bd-9b98-820e7109058a",
+      "length_ms": 324333,
+      "musicbrainz_mbid": "08421f5d-d56e-44bd-9b98-820e7109058a",
+      "source_url": "https://musicbrainz.org/recording/08421f5d-d56e-44bd-9b98-820e7109058a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:nirvana"
+      ],
+      "canonical_name": "Come as You Are",
+      "first_release_date": "2012-03-20",
+      "internal_id": "mw:recording:05a2295f-dccc-46dd-a47c-bf54c417d23a",
+      "length_ms": 212000,
+      "musicbrainz_mbid": "05a2295f-dccc-46dd-a47c-bf54c417d23a",
+      "source_url": "https://musicbrainz.org/recording/05a2295f-dccc-46dd-a47c-bf54c417d23a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:nirvana"
+      ],
+      "canonical_name": "Heart-Shaped Box",
+      "first_release_date": "1994",
+      "internal_id": "mw:recording:a17e4d80-b7c3-4524-9d32-8c07cfaa8612",
+      "length_ms": 325226,
+      "musicbrainz_mbid": "a17e4d80-b7c3-4524-9d32-8c07cfaa8612",
+      "source_url": "https://musicbrainz.org/recording/a17e4d80-b7c3-4524-9d32-8c07cfaa8612"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine"
+      ],
+      "canonical_name": "Only Shallow",
+      "first_release_date": "1992-01-01",
+      "internal_id": "mw:recording:110e757e-6345-4f95-8c2d-e3caf55f9e16",
+      "length_ms": 257000,
+      "musicbrainz_mbid": "110e757e-6345-4f95-8c2d-e3caf55f9e16",
+      "source_url": "https://musicbrainz.org/recording/110e757e-6345-4f95-8c2d-e3caf55f9e16"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine"
+      ],
+      "canonical_name": "When You Sleep",
+      "first_release_date": "2026",
+      "internal_id": "mw:recording:147a6c50-72a8-4715-8058-64a41f4b5558",
+      "length_ms": null,
+      "musicbrainz_mbid": "147a6c50-72a8-4715-8058-64a41f4b5558",
+      "source_url": "https://musicbrainz.org/recording/147a6c50-72a8-4715-8058-64a41f4b5558"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine"
+      ],
+      "canonical_name": "soon",
+      "first_release_date": null,
+      "internal_id": "mw:recording:1160e038-2c2e-4f25-bd66-4bd114805d54",
+      "length_ms": 587000,
+      "musicbrainz_mbid": "1160e038-2c2e-4f25-bd66-4bd114805d54",
+      "source_url": "https://musicbrainz.org/recording/1160e038-2c2e-4f25-bd66-4bd114805d54"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill"
+      ],
+      "canonical_name": "Rebel Girl",
+      "first_release_date": "1993-10-26",
+      "internal_id": "mw:recording:09925f2d-7e26-477b-a30a-c1963bb154f8",
+      "length_ms": 163133,
+      "musicbrainz_mbid": "09925f2d-7e26-477b-a30a-c1963bb154f8",
+      "source_url": "https://musicbrainz.org/recording/09925f2d-7e26-477b-a30a-c1963bb154f8"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill"
+      ],
+      "canonical_name": "Double Dare Ya",
+      "first_release_date": "1991",
+      "internal_id": "mw:recording:006b1b28-ba43-4f56-a380-2c37689ed477",
+      "length_ms": 148693,
+      "musicbrainz_mbid": "006b1b28-ba43-4f56-a380-2c37689ed477",
+      "source_url": "https://musicbrainz.org/recording/006b1b28-ba43-4f56-a380-2c37689ed477"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill"
+      ],
+      "canonical_name": "New Radio",
+      "first_release_date": "1993-09",
+      "internal_id": "mw:recording:11c81768-afe0-4b8d-b59c-0f80bfa96e27",
+      "length_ms": 93000,
+      "musicbrainz_mbid": "11c81768-afe0-4b8d-b59c-0f80bfa96e27",
+      "source_url": "https://musicbrainz.org/recording/11c81768-afe0-4b8d-b59c-0f80bfa96e27"
+    }
+  ],
+  "relations": [
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q11366-p279-q11399"
+      ],
+      "internal_id": "mw:relation:alternative-rock-subgenre-rock",
+      "label": "Alternative Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:alternative-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q211573-p279-q11399"
+      ],
+      "internal_id": "mw:relation:garage-rock-subgenre-rock",
+      "label": "Garage Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:garage-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q76092-p279-q11399"
+      ],
+      "internal_id": "mw:relation:glam-rock-subgenre-rock",
+      "label": "Glam Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:glam-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q485395-p279-q11366"
+      ],
+      "internal_id": "mw:relation:gothic-rock-subgenre-alternative-rock",
+      "label": "Gothic Rock 是 Alternative Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:gothic-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:alternative-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q485395-p279-q598929"
+      ],
+      "internal_id": "mw:relation:gothic-rock-subgenre-post-punk",
+      "label": "Gothic Rock 是 Post-Punk 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:gothic-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:post-punk"
+    },
+    {
+      "assertion_kind": "candidate",
+      "coverage_state": "partial",
+      "direction": "undirected",
+      "evidence_ids": [
+        "mw:evidence:editorial-grunge-associated-punk-rock"
+      ],
+      "internal_id": "mw:relation:grunge-associated-punk-rock",
+      "label": "Grunge 与 Punk Rock：编辑型比较轴",
+      "relation_type": "associated_with",
+      "score": null,
+      "source_id": "mw:style:grunge",
+      "summary": "这条连线用于比较态度、制作方式与场景网络，当前不是开放事实边。",
+      "target_id": "mw:style:punk-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:dbpedia-grunge-stylistic-origin-heavy-metal"
+      ],
+      "internal_id": "mw:relation:grunge-influenced-by-heavy-metal",
+      "label": "Grunge 受到 Heavy Metal 的风格影响",
+      "relation_type": "influenced_by",
+      "score": 1,
+      "source_id": "mw:style:grunge",
+      "summary": "DBpedia 将 Heavy Metal 列为 Grunge 的风格来源之一；这表示影响关系，不表示 Grunge 是 Heavy Metal 的子风格。",
+      "target_id": "mw:style:heavy-metal"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q11365-p279-q11366"
+      ],
+      "internal_id": "mw:relation:grunge-subgenre-alternative-rock",
+      "label": "Grunge 是 Alternative Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:grunge",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:alternative-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q83270-p279-q11399"
+      ],
+      "internal_id": "mw:relation:hard-rock-subgenre-rock",
+      "label": "Hard Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:hard-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q183504-p279-q11366"
+      ],
+      "internal_id": "mw:relation:indie-rock-subgenre-alternative-rock",
+      "label": "Indie Rock 是 Alternative Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:indie-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:alternative-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q185162-p279-q11399"
+      ],
+      "internal_id": "mw:relation:latin-rock-subgenre-rock",
+      "label": "Latin Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:latin-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q49451-p279-q11399"
+      ],
+      "internal_id": "mw:relation:progressive-rock-subgenre-rock",
+      "label": "Progressive Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:progressive-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q206159-p279-q11399"
+      ],
+      "internal_id": "mw:relation:psychedelic-rock-subgenre-rock",
+      "label": "Psychedelic Rock 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:psychedelic-rock",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "candidate",
+      "coverage_state": "partial",
+      "direction": "undirected",
+      "evidence_ids": [
+        "mw:evidence:editorial-riot-grrrl-associated-indie-rock"
+      ],
+      "internal_id": "mw:relation:riot-grrrl-associated-indie-rock",
+      "label": "Riot Grrrl 与 Indie Rock：编辑型比较轴",
+      "relation_type": "associated_with",
+      "score": null,
+      "source_id": "mw:style:riot-grrrl",
+      "summary": "这条连线用于比较独立发行与社群组织，当前不是开放事实边。",
+      "target_id": "mw:style:indie-rock"
+    },
+    {
+      "assertion_kind": "candidate",
+      "coverage_state": "partial",
+      "direction": "undirected",
+      "evidence_ids": [
+        "mw:evidence:editorial-riot-grrrl-associated-post-punk"
+      ],
+      "internal_id": "mw:relation:riot-grrrl-associated-post-punk",
+      "label": "Riot Grrrl 与 Post-Punk：编辑型比较轴",
+      "relation_type": "associated_with",
+      "score": null,
+      "source_id": "mw:style:riot-grrrl",
+      "summary": "这条连线用于比较政治表达与场景方法，当前不是开放事实边。",
+      "target_id": "mw:style:post-punk"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q677542-p279-q3071"
+      ],
+      "internal_id": "mw:relation:riot-grrrl-subgenre-punk-rock",
+      "label": "Riot Grrrl 是 Punk Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:riot-grrrl",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:punk-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q7749-p279-q11399"
+      ],
+      "internal_id": "mw:relation:rock-and-roll-subgenre-rock",
+      "label": "Rock and Roll 是 Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:rock-and-roll",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:rock"
+    },
+    {
+      "assertion_kind": "candidate",
+      "coverage_state": "partial",
+      "direction": "undirected",
+      "evidence_ids": [
+        "mw:evidence:editorial-shoegaze-associated-indie-rock"
+      ],
+      "internal_id": "mw:relation:shoegaze-associated-indie-rock",
+      "label": "Shoegaze 与 Indie Rock：编辑型比较轴",
+      "relation_type": "associated_with",
+      "score": null,
+      "source_id": "mw:style:shoegaze",
+      "summary": "这条连线用于比较独立场景与发行网络，当前不是开放事实边。",
+      "target_id": "mw:style:indie-rock"
+    },
+    {
+      "assertion_kind": "candidate",
+      "coverage_state": "partial",
+      "direction": "undirected",
+      "evidence_ids": [
+        "mw:evidence:editorial-shoegaze-associated-psychedelic-rock"
+      ],
+      "internal_id": "mw:relation:shoegaze-associated-psychedelic-rock",
+      "label": "Shoegaze 与 Psychedelic Rock：编辑型比较轴",
+      "relation_type": "associated_with",
+      "score": null,
+      "source_id": "mw:style:shoegaze",
+      "summary": "这条连线用于比较空间感与声音层次，当前不是开放事实边。",
+      "target_id": "mw:style:psychedelic-rock"
+    },
+    {
+      "assertion_kind": "fact",
+      "coverage_state": "ready",
+      "direction": "directed",
+      "evidence_ids": [
+        "mw:evidence:wikidata-q272167-p279-q11366"
+      ],
+      "internal_id": "mw:relation:shoegaze-subgenre-alternative-rock",
+      "label": "Shoegaze 是 Alternative Rock 的子风格",
+      "relation_type": "subgenre_of",
+      "score": 1,
+      "source_id": "mw:style:shoegaze",
+      "summary": "这条父子关系来自 Wikidata 的明确 P279 statement。",
+      "target_id": "mw:style:alternative-rock"
+    }
+  ],
+  "release_groups": [
+    {
+      "artist_ids": [
+        "mw:artist:the-beatles"
+      ],
+      "canonical_name": "With The Beatles",
+      "first_release_date": "1963-11-22",
+      "internal_id": "mw:release-group:a63dc65f-09f2-359b-a10e-648f00ecd96c",
+      "musicbrainz_mbid": "a63dc65f-09f2-359b-a10e-648f00ecd96c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a63dc65f-09f2-359b-a10e-648f00ecd96c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-beatles"
+      ],
+      "canonical_name": "Please Please Me",
+      "first_release_date": "1963-03-22",
+      "internal_id": "mw:release-group:de208292-8db5-3aed-a14a-b37a84d8c521",
+      "musicbrainz_mbid": "de208292-8db5-3aed-a14a-b37a84d8c521",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/de208292-8db5-3aed-a14a-b37a84d8c521"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-rolling-stones"
+      ],
+      "canonical_name": "12 × 5",
+      "first_release_date": "1964-10-24",
+      "internal_id": "mw:release-group:703eab6c-056e-3d6d-95d9-991e01f5ca57",
+      "musicbrainz_mbid": "703eab6c-056e-3d6d-95d9-991e01f5ca57",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/703eab6c-056e-3d6d-95d9-991e01f5ca57"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-rolling-stones"
+      ],
+      "canonical_name": "Greatest Hits",
+      "first_release_date": "1964",
+      "internal_id": "mw:release-group:8eeb34a5-5935-4b6b-bb39-a83daaf98d51",
+      "musicbrainz_mbid": "8eeb34a5-5935-4b6b-bb39-a83daaf98d51",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/8eeb34a5-5935-4b6b-bb39-a83daaf98d51"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-who"
+      ],
+      "canonical_name": "My Generation",
+      "first_release_date": "1965-12-03",
+      "internal_id": "mw:release-group:00c3da9f-309b-3f78-ba23-6a753fd6313d",
+      "musicbrainz_mbid": "00c3da9f-309b-3f78-ba23-6a753fd6313d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/00c3da9f-309b-3f78-ba23-6a753fd6313d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-who"
+      ],
+      "canonical_name": "A Quick One",
+      "first_release_date": "1966-12-03",
+      "internal_id": "mw:release-group:475af630-84df-3243-9888-c03c67d54d1a",
+      "musicbrainz_mbid": "475af630-84df-3243-9888-c03c67d54d1a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/475af630-84df-3243-9888-c03c67d54d1a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-kinks"
+      ],
+      "canonical_name": "Kinks",
+      "first_release_date": "1964-10-02",
+      "internal_id": "mw:release-group:874449ed-f27e-4e1b-923e-9f1aaef4cc06",
+      "musicbrainz_mbid": "874449ed-f27e-4e1b-923e-9f1aaef4cc06",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/874449ed-f27e-4e1b-923e-9f1aaef4cc06"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-kinks"
+      ],
+      "canonical_name": "Kinkdom",
+      "first_release_date": "1965-11",
+      "internal_id": "mw:release-group:6dc88c11-0184-3f4c-82c9-8203c84ef03c",
+      "musicbrainz_mbid": "6dc88c11-0184-3f4c-82c9-8203c84ef03c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/6dc88c11-0184-3f4c-82c9-8203c84ef03c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:creedence-clearwater-revival"
+      ],
+      "canonical_name": "Creedence Clearwater Revival",
+      "first_release_date": "1968-07-05",
+      "internal_id": "mw:release-group:871da799-a7f7-39df-8332-e246584458dd",
+      "musicbrainz_mbid": "871da799-a7f7-39df-8332-e246584458dd",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/871da799-a7f7-39df-8332-e246584458dd"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:creedence-clearwater-revival"
+      ],
+      "canonical_name": "Willy and the Poor Boys",
+      "first_release_date": "1969-11-02",
+      "internal_id": "mw:release-group:5fdea541-32fc-3b17-b7c4-50b40f65203d",
+      "musicbrainz_mbid": "5fdea541-32fc-3b17-b7c4-50b40f65203d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5fdea541-32fc-3b17-b7c4-50b40f65203d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:chuck-berry"
+      ],
+      "canonical_name": "After School Session",
+      "first_release_date": "1957-05-01",
+      "internal_id": "mw:release-group:5afd7290-cd77-3a52-afac-01043240db5a",
+      "musicbrainz_mbid": "5afd7290-cd77-3a52-afac-01043240db5a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5afd7290-cd77-3a52-afac-01043240db5a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:chuck-berry"
+      ],
+      "canonical_name": "One Dozen Berrys",
+      "first_release_date": "1958-03-01",
+      "internal_id": "mw:release-group:9fe02f36-1afd-34b5-bc01-752c614371b4",
+      "musicbrainz_mbid": "9fe02f36-1afd-34b5-bc01-752c614371b4",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/9fe02f36-1afd-34b5-bc01-752c614371b4"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:little-richard"
+      ],
+      "canonical_name": "50 Greatest Hits",
+      "first_release_date": "1957-03-01",
+      "internal_id": "mw:release-group:852cb4c7-d703-44c7-ae6e-4a892e48e69a",
+      "musicbrainz_mbid": "852cb4c7-d703-44c7-ae6e-4a892e48e69a",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/852cb4c7-d703-44c7-ae6e-4a892e48e69a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:little-richard"
+      ],
+      "canonical_name": "Here’s Little Richard",
+      "first_release_date": "1957-03",
+      "internal_id": "mw:release-group:a987042b-4fe0-35bb-9cca-7ff44b1ff5b4",
+      "musicbrainz_mbid": "a987042b-4fe0-35bb-9cca-7ff44b1ff5b4",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a987042b-4fe0-35bb-9cca-7ff44b1ff5b4"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:jerry-lee-lewis"
+      ],
+      "canonical_name": "Jerry Lee Lewis and His Pumping Piano",
+      "first_release_date": "1958",
+      "internal_id": "mw:release-group:1783f1d8-240b-4c6a-9636-8f9cb282a630",
+      "musicbrainz_mbid": "1783f1d8-240b-4c6a-9636-8f9cb282a630",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1783f1d8-240b-4c6a-9636-8f9cb282a630"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:jerry-lee-lewis"
+      ],
+      "canonical_name": "Jerry Lee Lewis",
+      "first_release_date": "1958-05",
+      "internal_id": "mw:release-group:460f9e2e-1124-3f70-8164-35e7440ab524",
+      "musicbrainz_mbid": "460f9e2e-1124-3f70-8164-35e7440ab524",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/460f9e2e-1124-3f70-8164-35e7440ab524"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:buddy-holly"
+      ],
+      "canonical_name": "Buddy Holly",
+      "first_release_date": "1958-07",
+      "internal_id": "mw:release-group:01522dff-0f0a-4540-a4d3-b9d22b0c12e5",
+      "musicbrainz_mbid": "01522dff-0f0a-4540-a4d3-b9d22b0c12e5",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/01522dff-0f0a-4540-a4d3-b9d22b0c12e5"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:buddy-holly"
+      ],
+      "canonical_name": "That’ll Be the Day",
+      "first_release_date": "1958",
+      "internal_id": "mw:release-group:8906f6e8-a8a7-4de8-8a37-ffd0b39f7456",
+      "musicbrainz_mbid": "8906f6e8-a8a7-4de8-8a37-ffd0b39f7456",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/8906f6e8-a8a7-4de8-8a37-ffd0b39f7456"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bo-diddley"
+      ],
+      "canonical_name": "Bo Diddley",
+      "first_release_date": "1958",
+      "internal_id": "mw:release-group:f1cedb26-816f-3815-8489-c317ede4cae0",
+      "musicbrainz_mbid": "f1cedb26-816f-3815-8489-c317ede4cae0",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/f1cedb26-816f-3815-8489-c317ede4cae0"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bo-diddley"
+      ],
+      "canonical_name": "Go Bo Diddley",
+      "first_release_date": "1959",
+      "internal_id": "mw:release-group:5aff3ef3-68f5-3043-8399-4569b9a3466b",
+      "musicbrainz_mbid": "5aff3ef3-68f5-3043-8399-4569b9a3466b",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5aff3ef3-68f5-3043-8399-4569b9a3466b"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:jefferson-airplane"
+      ],
+      "canonical_name": "Jefferson Airplane Takes Off",
+      "first_release_date": "1966-08-15",
+      "internal_id": "mw:release-group:7580fcad-3459-3f5c-a300-d7d0df98e14e",
+      "musicbrainz_mbid": "7580fcad-3459-3f5c-a300-d7d0df98e14e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/7580fcad-3459-3f5c-a300-d7d0df98e14e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:jefferson-airplane"
+      ],
+      "canonical_name": "After Bathing at Baxter’s",
+      "first_release_date": "1967-11-30",
+      "internal_id": "mw:release-group:bb178c25-91e9-3fbf-bfc9-0ce399784293",
+      "musicbrainz_mbid": "bb178c25-91e9-3fbf-bfc9-0ce399784293",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/bb178c25-91e9-3fbf-bfc9-0ce399784293"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-doors"
+      ],
+      "canonical_name": "The Doors - First Demos 1965 (World Pacific Studios)",
+      "first_release_date": "1965-09-02",
+      "internal_id": "mw:release-group:6d91b743-701e-479c-abb6-f9c0af62e00c",
+      "musicbrainz_mbid": "6d91b743-701e-479c-abb6-f9c0af62e00c",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/6d91b743-701e-479c-abb6-f9c0af62e00c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-doors"
+      ],
+      "canonical_name": "The Doors",
+      "first_release_date": "1967-01-04",
+      "internal_id": "mw:release-group:8ebffd15-06c3-3b88-a761-ec18c5513287",
+      "musicbrainz_mbid": "8ebffd15-06c3-3b88-a761-ec18c5513287",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/8ebffd15-06c3-3b88-a761-ec18c5513287"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:13th-floor-elevators"
+      ],
+      "canonical_name": "The Psychedelic Sounds of the 13th Floor Elevators",
+      "first_release_date": "1966-11",
+      "internal_id": "mw:release-group:6577ce2b-1be3-4ed0-92c6-f78175280bae",
+      "musicbrainz_mbid": "6577ce2b-1be3-4ed0-92c6-f78175280bae",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/6577ce2b-1be3-4ed0-92c6-f78175280bae"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:13th-floor-elevators"
+      ],
+      "canonical_name": "Easter Everywhere",
+      "first_release_date": "1967-10-25",
+      "internal_id": "mw:release-group:d47f5666-e7cf-35c4-898d-ef778cc3cce0",
+      "musicbrainz_mbid": "d47f5666-e7cf-35c4-898d-ef778cc3cce0",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d47f5666-e7cf-35c4-898d-ef778cc3cce0"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:country-joe-and-the-fish"
+      ],
+      "canonical_name": "I‐Feel‐Like‐I’m‐Fixin’‐to‐Die",
+      "first_release_date": "1967-11",
+      "internal_id": "mw:release-group:0d9602b4-5aab-3dc0-8cbe-1a399073eb3e",
+      "musicbrainz_mbid": "0d9602b4-5aab-3dc0-8cbe-1a399073eb3e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/0d9602b4-5aab-3dc0-8cbe-1a399073eb3e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:country-joe-and-the-fish"
+      ],
+      "canonical_name": "Electric Music For The Mind And Body",
+      "first_release_date": "1967-04",
+      "internal_id": "mw:release-group:11351784-a205-3a5c-a04c-712b645da99c",
+      "musicbrainz_mbid": "11351784-a205-3a5c-a04c-712b645da99c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/11351784-a205-3a5c-a04c-712b645da99c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:spirit"
+      ],
+      "canonical_name": "The Family That Plays Together",
+      "first_release_date": "1968",
+      "internal_id": "mw:release-group:2d13c365-47dc-37f7-9491-663f62f65a17",
+      "musicbrainz_mbid": "2d13c365-47dc-37f7-9491-663f62f65a17",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2d13c365-47dc-37f7-9491-663f62f65a17"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:spirit"
+      ],
+      "canonical_name": "Spirit",
+      "first_release_date": "1968-01-22",
+      "internal_id": "mw:release-group:9ae95886-c764-3bc6-ae1a-514d183641c7",
+      "musicbrainz_mbid": "9ae95886-c764-3bc6-ae1a-514d183641c7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/9ae95886-c764-3bc6-ae1a-514d183641c7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:king-crimson"
+      ],
+      "canonical_name": "In the Court of the Crimson King",
+      "first_release_date": "1969-10-10",
+      "internal_id": "mw:release-group:a50636b5-5233-3329-a7f3-dba3d0e00ef7",
+      "musicbrainz_mbid": "a50636b5-5233-3329-a7f3-dba3d0e00ef7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a50636b5-5233-3329-a7f3-dba3d0e00ef7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:king-crimson"
+      ],
+      "canonical_name": "Lizard",
+      "first_release_date": "1970-12-11",
+      "internal_id": "mw:release-group:abe5a8ec-20c9-3d49-bb2d-4c371bf1ef25",
+      "musicbrainz_mbid": "abe5a8ec-20c9-3d49-bb2d-4c371bf1ef25",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/abe5a8ec-20c9-3d49-bb2d-4c371bf1ef25"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:yes"
+      ],
+      "canonical_name": "Yes",
+      "first_release_date": "1969-07-25",
+      "internal_id": "mw:release-group:d85fd220-b4a7-3d98-baf1-7a53a5e5e255",
+      "musicbrainz_mbid": "d85fd220-b4a7-3d98-baf1-7a53a5e5e255",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d85fd220-b4a7-3d98-baf1-7a53a5e5e255"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:yes"
+      ],
+      "canonical_name": "Time and a Word",
+      "first_release_date": "1970-07-24",
+      "internal_id": "mw:release-group:7ca63070-4b61-3569-9c1d-014a69f16f69",
+      "musicbrainz_mbid": "7ca63070-4b61-3569-9c1d-014a69f16f69",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/7ca63070-4b61-3569-9c1d-014a69f16f69"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:genesis"
+      ],
+      "canonical_name": "From Genesis to Revelation",
+      "first_release_date": "1969-03-07",
+      "internal_id": "mw:release-group:0a7225eb-7177-3cdc-92d8-23e8541831ee",
+      "musicbrainz_mbid": "0a7225eb-7177-3cdc-92d8-23e8541831ee",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/0a7225eb-7177-3cdc-92d8-23e8541831ee"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:genesis"
+      ],
+      "canonical_name": "Trespass",
+      "first_release_date": "1970-10",
+      "internal_id": "mw:release-group:aa86c6bb-d1c7-3a03-bcb4-3c6f0a469328",
+      "musicbrainz_mbid": "aa86c6bb-d1c7-3a03-bcb4-3c6f0a469328",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/aa86c6bb-d1c7-3a03-bcb4-3c6f0a469328"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:emerson-lake-and-palmer"
+      ],
+      "canonical_name": "Emerson, Lake & Palmer",
+      "first_release_date": "1970-11",
+      "internal_id": "mw:release-group:86e88318-dd1e-36e9-bb62-c5d0b8a8b4e5",
+      "musicbrainz_mbid": "86e88318-dd1e-36e9-bb62-c5d0b8a8b4e5",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/86e88318-dd1e-36e9-bb62-c5d0b8a8b4e5"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:emerson-lake-and-palmer"
+      ],
+      "canonical_name": "Pictures at an Exhibition",
+      "first_release_date": "1971-11",
+      "internal_id": "mw:release-group:b1fff2ac-34eb-358b-9bf5-196b2a5fc288",
+      "musicbrainz_mbid": "b1fff2ac-34eb-358b-9bf5-196b2a5fc288",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/b1fff2ac-34eb-358b-9bf5-196b2a5fc288"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:gentle-giant"
+      ],
+      "canonical_name": "Gentle Giant",
+      "first_release_date": "1970-11-27",
+      "internal_id": "mw:release-group:982d0c6c-ce5e-3b0a-b655-2972d785eb65",
+      "musicbrainz_mbid": "982d0c6c-ce5e-3b0a-b655-2972d785eb65",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/982d0c6c-ce5e-3b0a-b655-2972d785eb65"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:gentle-giant"
+      ],
+      "canonical_name": "Acquiring the Taste",
+      "first_release_date": "1971-07-16",
+      "internal_id": "mw:release-group:63de3b9c-e71b-3f4d-af82-216011f95805",
+      "musicbrainz_mbid": "63de3b9c-e71b-3f4d-af82-216011f95805",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/63de3b9c-e71b-3f4d-af82-216011f95805"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:led-zeppelin"
+      ],
+      "canonical_name": "Led Zeppelin",
+      "first_release_date": "1969-01-12",
+      "internal_id": "mw:release-group:0f18ec88-aa87-38a9-8a65-f03d81763560",
+      "musicbrainz_mbid": "0f18ec88-aa87-38a9-8a65-f03d81763560",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/0f18ec88-aa87-38a9-8a65-f03d81763560"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:led-zeppelin"
+      ],
+      "canonical_name": "Led Zeppelin II",
+      "first_release_date": "1969-10-22",
+      "internal_id": "mw:release-group:33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+      "musicbrainz_mbid": "33b4653d-006e-3cc1-8afb-386b15a6cd6e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/33b4653d-006e-3cc1-8afb-386b15a6cd6e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:deep-purple"
+      ],
+      "canonical_name": "The Book of Taliesyn",
+      "first_release_date": "1968-10",
+      "internal_id": "mw:release-group:3a2bbe30-d2c7-367b-9326-f0082adad661",
+      "musicbrainz_mbid": "3a2bbe30-d2c7-367b-9326-f0082adad661",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3a2bbe30-d2c7-367b-9326-f0082adad661"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:deep-purple"
+      ],
+      "canonical_name": "Shades of Deep Purple",
+      "first_release_date": "1968-07-17",
+      "internal_id": "mw:release-group:bdb083d6-be5e-32b3-97df-3d899a8ff858",
+      "musicbrainz_mbid": "bdb083d6-be5e-32b3-97df-3d899a8ff858",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/bdb083d6-be5e-32b3-97df-3d899a8ff858"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ac-dc"
+      ],
+      "canonical_name": "High Voltage",
+      "first_release_date": "1975-02-17",
+      "internal_id": "mw:release-group:2b81e645-4586-4456-843a-9bc19a217470",
+      "musicbrainz_mbid": "2b81e645-4586-4456-843a-9bc19a217470",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2b81e645-4586-4456-843a-9bc19a217470"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ac-dc"
+      ],
+      "canonical_name": "T.N.T.",
+      "first_release_date": "1975-12-01",
+      "internal_id": "mw:release-group:e01e5b5c-5ca6-3876-b6ff-b9ad88dd71ee",
+      "musicbrainz_mbid": "e01e5b5c-5ca6-3876-b6ff-b9ad88dd71ee",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/e01e5b5c-5ca6-3876-b6ff-b9ad88dd71ee"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:aerosmith"
+      ],
+      "canonical_name": "Aerosmith",
+      "first_release_date": "1973-01-05",
+      "internal_id": "mw:release-group:8a58cc1a-be0d-3b1b-8d0d-aa8f467a59da",
+      "musicbrainz_mbid": "8a58cc1a-be0d-3b1b-8d0d-aa8f467a59da",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/8a58cc1a-be0d-3b1b-8d0d-aa8f467a59da"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:aerosmith"
+      ],
+      "canonical_name": "Get Your Wings",
+      "first_release_date": "1974-03-01",
+      "internal_id": "mw:release-group:29346fb6-69c8-3f12-90c3-9d6cbce18259",
+      "musicbrainz_mbid": "29346fb6-69c8-3f12-90c3-9d6cbce18259",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/29346fb6-69c8-3f12-90c3-9d6cbce18259"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:van-halen"
+      ],
+      "canonical_name": "Van Halen",
+      "first_release_date": "1978-02-10",
+      "internal_id": "mw:release-group:43a0e8b5-6059-397f-81e6-b8df5a648496",
+      "musicbrainz_mbid": "43a0e8b5-6059-397f-81e6-b8df5a648496",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/43a0e8b5-6059-397f-81e6-b8df5a648496"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:van-halen"
+      ],
+      "canonical_name": "Van Halen II",
+      "first_release_date": "1979-03-26",
+      "internal_id": "mw:release-group:8001e841-11a1-379d-b52c-da0311340b56",
+      "musicbrainz_mbid": "8001e841-11a1-379d-b52c-da0311340b56",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/8001e841-11a1-379d-b52c-da0311340b56"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:black-sabbath"
+      ],
+      "canonical_name": "Black Sabbath",
+      "first_release_date": "1970-02-13",
+      "internal_id": "mw:release-group:826c9743-a3f0-3479-bf06-8df2e140ef1d",
+      "musicbrainz_mbid": "826c9743-a3f0-3479-bf06-8df2e140ef1d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/826c9743-a3f0-3479-bf06-8df2e140ef1d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:black-sabbath"
+      ],
+      "canonical_name": "Paranoid",
+      "first_release_date": "1970-09-18",
+      "internal_id": "mw:release-group:cc053745-c447-3566-8f27-bed5438c9133",
+      "musicbrainz_mbid": "cc053745-c447-3566-8f27-bed5438c9133",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/cc053745-c447-3566-8f27-bed5438c9133"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:judas-priest"
+      ],
+      "canonical_name": "Rocka Rolla",
+      "first_release_date": "1974-08",
+      "internal_id": "mw:release-group:a323f028-9a93-36af-ae53-c72c2d8fa3f2",
+      "musicbrainz_mbid": "a323f028-9a93-36af-ae53-c72c2d8fa3f2",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a323f028-9a93-36af-ae53-c72c2d8fa3f2"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:judas-priest"
+      ],
+      "canonical_name": "Sad Wings of Destiny",
+      "first_release_date": "1976",
+      "internal_id": "mw:release-group:04b8ba32-4b02-3f06-a533-f9938b70b925",
+      "musicbrainz_mbid": "04b8ba32-4b02-3f06-a533-f9938b70b925",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/04b8ba32-4b02-3f06-a533-f9938b70b925"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:iron-maiden"
+      ],
+      "canonical_name": "Iron Maiden",
+      "first_release_date": "1980-04-14",
+      "internal_id": "mw:release-group:88a735ad-1f8a-3f96-b410-7e5058dff7f6",
+      "musicbrainz_mbid": "88a735ad-1f8a-3f96-b410-7e5058dff7f6",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/88a735ad-1f8a-3f96-b410-7e5058dff7f6"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:iron-maiden"
+      ],
+      "canonical_name": "Live at The Rainbow",
+      "first_release_date": "1981-05",
+      "internal_id": "mw:release-group:99a8a72a-94ff-4af5-a46a-c7f44ec69824",
+      "musicbrainz_mbid": "99a8a72a-94ff-4af5-a46a-c7f44ec69824",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/99a8a72a-94ff-4af5-a46a-c7f44ec69824"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:motorhead"
+      ],
+      "canonical_name": "Motörhead",
+      "first_release_date": "1977-08-21",
+      "internal_id": "mw:release-group:43b4c679-bb92-3479-8763-501fd5173d3d",
+      "musicbrainz_mbid": "43b4c679-bb92-3479-8763-501fd5173d3d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/43b4c679-bb92-3479-8763-501fd5173d3d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:motorhead"
+      ],
+      "canonical_name": "Bomber",
+      "first_release_date": "1979-10-27",
+      "internal_id": "mw:release-group:973143a1-759e-3b3c-91df-322c5c86b62d",
+      "musicbrainz_mbid": "973143a1-759e-3b3c-91df-322c5c86b62d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/973143a1-759e-3b3c-91df-322c5c86b62d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dio"
+      ],
+      "canonical_name": "Holy Diver",
+      "first_release_date": "1983-05-25",
+      "internal_id": "mw:release-group:4e7b34de-0d87-356a-a3da-b21f769b7d4d",
+      "musicbrainz_mbid": "4e7b34de-0d87-356a-a3da-b21f769b7d4d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/4e7b34de-0d87-356a-a3da-b21f769b7d4d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dio"
+      ],
+      "canonical_name": "The Last in Line",
+      "first_release_date": "1984-07-13",
+      "internal_id": "mw:release-group:798601d4-f28e-3835-b10c-1a00ecf773b8",
+      "musicbrainz_mbid": "798601d4-f28e-3835-b10c-1a00ecf773b8",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/798601d4-f28e-3835-b10c-1a00ecf773b8"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ramones"
+      ],
+      "canonical_name": "Ramones",
+      "first_release_date": "1976-04-23",
+      "internal_id": "mw:release-group:7de1e321-4a53-3feb-b83e-f1dab88bf952",
+      "musicbrainz_mbid": "7de1e321-4a53-3feb-b83e-f1dab88bf952",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/7de1e321-4a53-3feb-b83e-f1dab88bf952"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ramones"
+      ],
+      "canonical_name": "Leave Home",
+      "first_release_date": "1977-01-10",
+      "internal_id": "mw:release-group:bc3b5116-300a-3696-919d-bca466a3f143",
+      "musicbrainz_mbid": "bc3b5116-300a-3696-919d-bca466a3f143",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/bc3b5116-300a-3696-919d-bca466a3f143"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sex-pistols"
+      ],
+      "canonical_name": "Spunk",
+      "first_release_date": "1977-08",
+      "internal_id": "mw:release-group:7bea35fd-4239-3042-96eb-1032bdc492ee",
+      "musicbrainz_mbid": "7bea35fd-4239-3042-96eb-1032bdc492ee",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/7bea35fd-4239-3042-96eb-1032bdc492ee"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sex-pistols"
+      ],
+      "canonical_name": "Indecent Exposure",
+      "first_release_date": "1977",
+      "internal_id": "mw:release-group:9b6f34db-3f04-3d94-8541-8829c2104244",
+      "musicbrainz_mbid": "9b6f34db-3f04-3d94-8541-8829c2104244",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/9b6f34db-3f04-3d94-8541-8829c2104244"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-clash"
+      ],
+      "canonical_name": "The Clash",
+      "first_release_date": "1977-04-08",
+      "internal_id": "mw:release-group:ca91cb5a-7ecc-3c46-84a0-0d4951889374",
+      "musicbrainz_mbid": "ca91cb5a-7ecc-3c46-84a0-0d4951889374",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ca91cb5a-7ecc-3c46-84a0-0d4951889374"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-clash"
+      ],
+      "canonical_name": "Give ’Em Enough Rope",
+      "first_release_date": "1978-11-10",
+      "internal_id": "mw:release-group:fcd23bde-a71f-3a1e-8c7a-cde4eb427532",
+      "musicbrainz_mbid": "fcd23bde-a71f-3a1e-8c7a-cde4eb427532",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/fcd23bde-a71f-3a1e-8c7a-cde4eb427532"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dead-kennedys"
+      ],
+      "canonical_name": "Fresh Fruit for Rotting Vegetables",
+      "first_release_date": "1980-09",
+      "internal_id": "mw:release-group:3495fca0-ce60-3342-93f2-23fd525d8069",
+      "musicbrainz_mbid": "3495fca0-ce60-3342-93f2-23fd525d8069",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3495fca0-ce60-3342-93f2-23fd525d8069"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dead-kennedys"
+      ],
+      "canonical_name": "Plastic Surgery Disasters",
+      "first_release_date": "1982-10",
+      "internal_id": "mw:release-group:2194eb90-cedd-3c60-b93f-392bba3b588b",
+      "musicbrainz_mbid": "2194eb90-cedd-3c60-b93f-392bba3b588b",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2194eb90-cedd-3c60-b93f-392bba3b588b"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bad-brains"
+      ],
+      "canonical_name": "Bad Brains",
+      "first_release_date": "1982",
+      "internal_id": "mw:release-group:458f4bdf-ffbe-3643-977a-73e80d3d7b08",
+      "musicbrainz_mbid": "458f4bdf-ffbe-3643-977a-73e80d3d7b08",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/458f4bdf-ffbe-3643-977a-73e80d3d7b08"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bad-brains"
+      ],
+      "canonical_name": "Rock for Light",
+      "first_release_date": "1983-03",
+      "internal_id": "mw:release-group:876288a6-9b52-342b-a998-4d7dc01bc8bf",
+      "musicbrainz_mbid": "876288a6-9b52-342b-a998-4d7dc01bc8bf",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/876288a6-9b52-342b-a998-4d7dc01bc8bf"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:joy-division"
+      ],
+      "canonical_name": "Unknown Pleasures",
+      "first_release_date": "1979-06-15",
+      "internal_id": "mw:release-group:42352def-1aab-3000-b548-895ebd869cb6",
+      "musicbrainz_mbid": "42352def-1aab-3000-b548-895ebd869cb6",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/42352def-1aab-3000-b548-895ebd869cb6"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:joy-division"
+      ],
+      "canonical_name": "Live at Lyceum Ballroom, London",
+      "first_release_date": "1980-02-29",
+      "internal_id": "mw:release-group:8285f85e-c6d2-4805-b580-997a65053830",
+      "musicbrainz_mbid": "8285f85e-c6d2-4805-b580-997a65053830",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/8285f85e-c6d2-4805-b580-997a65053830"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:gang-of-four"
+      ],
+      "canonical_name": "Entertainment!",
+      "first_release_date": "1979-09-25",
+      "internal_id": "mw:release-group:d0493944-992b-3534-9174-8320c1879837",
+      "musicbrainz_mbid": "d0493944-992b-3534-9174-8320c1879837",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d0493944-992b-3534-9174-8320c1879837"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:gang-of-four"
+      ],
+      "canonical_name": "Anthrax Marxists",
+      "first_release_date": "1980",
+      "internal_id": "mw:release-group:38e58aa9-bd3a-35ac-9f0a-4ebf308cf365",
+      "musicbrainz_mbid": "38e58aa9-bd3a-35ac-9f0a-4ebf308cf365",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/38e58aa9-bd3a-35ac-9f0a-4ebf308cf365"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:siouxsie-and-the-banshees"
+      ],
+      "canonical_name": "The Scream",
+      "first_release_date": "1978-11-13",
+      "internal_id": "mw:release-group:67f24412-60c9-36f3-a1dc-e48e56098802",
+      "musicbrainz_mbid": "67f24412-60c9-36f3-a1dc-e48e56098802",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/67f24412-60c9-36f3-a1dc-e48e56098802"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:siouxsie-and-the-banshees"
+      ],
+      "canonical_name": "Love in a Void",
+      "first_release_date": "1978",
+      "internal_id": "mw:release-group:71986a43-ea8d-4a1f-8426-fee7a9c3ad73",
+      "musicbrainz_mbid": "71986a43-ea8d-4a1f-8426-fee7a9c3ad73",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/71986a43-ea8d-4a1f-8426-fee7a9c3ad73"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:public-image-ltd"
+      ],
+      "canonical_name": "First Issue",
+      "first_release_date": "1978-12-08",
+      "internal_id": "mw:release-group:1a3d0d0c-38bd-3662-9e27-e507fc949aa6",
+      "musicbrainz_mbid": "1a3d0d0c-38bd-3662-9e27-e507fc949aa6",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/1a3d0d0c-38bd-3662-9e27-e507fc949aa6"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:public-image-ltd"
+      ],
+      "canonical_name": "1978-12-22: Recorded Live in Paris When Nobody Was Looking: Le Stadium, Paris, France",
+      "first_release_date": "1979",
+      "internal_id": "mw:release-group:26e2f784-5a59-3f1d-944f-2a3429e146b0",
+      "musicbrainz_mbid": "26e2f784-5a59-3f1d-944f-2a3429e146b0",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/26e2f784-5a59-3f1d-944f-2a3429e146b0"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:wire"
+      ],
+      "canonical_name": "Pink Flag",
+      "first_release_date": "1977-11",
+      "internal_id": "mw:release-group:9facb8b5-4b02-3f28-9f4a-61cb9b8fd7aa",
+      "musicbrainz_mbid": "9facb8b5-4b02-3f28-9f4a-61cb9b8fd7aa",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/9facb8b5-4b02-3f28-9f4a-61cb9b8fd7aa"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:wire"
+      ],
+      "canonical_name": "Chairs Missing",
+      "first_release_date": "1978-10",
+      "internal_id": "mw:release-group:3e60a576-5bd0-3028-a0db-558c4a9845c7",
+      "musicbrainz_mbid": "3e60a576-5bd0-3028-a0db-558c4a9845c7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3e60a576-5bd0-3028-a0db-558c4a9845c7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:rem"
+      ],
+      "canonical_name": "Murmur",
+      "first_release_date": "1983-04-11",
+      "internal_id": "mw:release-group:de790d3d-a35c-364c-a8fb-adfb73084a45",
+      "musicbrainz_mbid": "de790d3d-a35c-364c-a8fb-adfb73084a45",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/de790d3d-a35c-364c-a8fb-adfb73084a45"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:rem"
+      ],
+      "canonical_name": "Reckoning",
+      "first_release_date": "1984-04-17",
+      "internal_id": "mw:release-group:eec55734-1387-3aa3-af3d-ff0ae8083806",
+      "musicbrainz_mbid": "eec55734-1387-3aa3-af3d-ff0ae8083806",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/eec55734-1387-3aa3-af3d-ff0ae8083806"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pixies"
+      ],
+      "canonical_name": "Surfer Rosa / Come On Pilgrim",
+      "first_release_date": "1988-03-21",
+      "internal_id": "mw:release-group:4e02e71a-7237-346d-9a8b-071e4b44d4be",
+      "musicbrainz_mbid": "4e02e71a-7237-346d-9a8b-071e4b44d4be",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/4e02e71a-7237-346d-9a8b-071e4b44d4be"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pixies"
+      ],
+      "canonical_name": "Surfer Rosa",
+      "first_release_date": "1988-03-21",
+      "internal_id": "mw:release-group:74e36cbc-a747-3ebf-a60e-51e656c87741",
+      "musicbrainz_mbid": "74e36cbc-a747-3ebf-a60e-51e656c87741",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/74e36cbc-a747-3ebf-a60e-51e656c87741"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-smashing-pumpkins"
+      ],
+      "canonical_name": "Gish",
+      "first_release_date": "1991-05-28",
+      "internal_id": "mw:release-group:4ac82f0b-1532-3734-80d7-5c02265197aa",
+      "musicbrainz_mbid": "4ac82f0b-1532-3734-80d7-5c02265197aa",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/4ac82f0b-1532-3734-80d7-5c02265197aa"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-smashing-pumpkins"
+      ],
+      "canonical_name": "Siamese Dream",
+      "first_release_date": "1993-07-26",
+      "internal_id": "mw:release-group:a159e102-18bb-42ca-a59e-5f96a7eff241",
+      "musicbrainz_mbid": "a159e102-18bb-42ca-a59e-5f96a7eff241",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a159e102-18bb-42ca-a59e-5f96a7eff241"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:radiohead"
+      ],
+      "canonical_name": "Pablo Honey",
+      "first_release_date": "1993-02-22",
+      "internal_id": "mw:release-group:cd76f76b-ff15-3784-a71d-4da3078a6851",
+      "musicbrainz_mbid": "cd76f76b-ff15-3784-a71d-4da3078a6851",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/cd76f76b-ff15-3784-a71d-4da3078a6851"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:radiohead"
+      ],
+      "canonical_name": "The Bends",
+      "first_release_date": "1994-11-29",
+      "internal_id": "mw:release-group:b8048f24-c026-3398-b23a-b5e50716cbc7",
+      "musicbrainz_mbid": "b8048f24-c026-3398-b23a-b5e50716cbc7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b8048f24-c026-3398-b23a-b5e50716cbc7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:janes-addiction"
+      ],
+      "canonical_name": "Jane’s Addiction",
+      "first_release_date": "1987",
+      "internal_id": "mw:release-group:01e26d01-dff7-371b-95db-bd198722de87",
+      "musicbrainz_mbid": "01e26d01-dff7-371b-95db-bd198722de87",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/01e26d01-dff7-371b-95db-bd198722de87"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:janes-addiction"
+      ],
+      "canonical_name": "Paraphernalia",
+      "first_release_date": "1988",
+      "internal_id": "mw:release-group:1357895d-8dd6-3024-a6b1-4c7bcdfe6602",
+      "musicbrainz_mbid": "1357895d-8dd6-3024-a6b1-4c7bcdfe6602",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1357895d-8dd6-3024-a6b1-4c7bcdfe6602"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pavement"
+      ],
+      "canonical_name": "Slanted and Enchanted",
+      "first_release_date": "1992-04-20",
+      "internal_id": "mw:release-group:869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+      "musicbrainz_mbid": "869f9eac-2a40-3a41-80a3-6bf2297a7cbc",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/869f9eac-2a40-3a41-80a3-6bf2297a7cbc"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pavement"
+      ],
+      "canonical_name": "Westing (by Musket and Sextant)",
+      "first_release_date": "1993-03-22",
+      "internal_id": "mw:release-group:116e30cb-c125-39eb-a185-404b5f6098cf",
+      "musicbrainz_mbid": "116e30cb-c125-39eb-a185-404b5f6098cf",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/116e30cb-c125-39eb-a185-404b5f6098cf"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sonic-youth"
+      ],
+      "canonical_name": "Sonic Death: Sonic Youth Live",
+      "first_release_date": "1983",
+      "internal_id": "mw:release-group:187d7c40-b76e-3545-b26e-bad59472f62e",
+      "musicbrainz_mbid": "187d7c40-b76e-3545-b26e-bad59472f62e",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/187d7c40-b76e-3545-b26e-bad59472f62e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sonic-youth"
+      ],
+      "canonical_name": "Confusion Is Sex",
+      "first_release_date": "1983",
+      "internal_id": "mw:release-group:89af14c4-5ee2-3415-aacc-065425656a12",
+      "musicbrainz_mbid": "89af14c4-5ee2-3415-aacc-065425656a12",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/89af14c4-5ee2-3415-aacc-065425656a12"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dinosaur-jr"
+      ],
+      "canonical_name": "Dinosaur",
+      "first_release_date": "1985-07-05",
+      "internal_id": "mw:release-group:a30cb5bc-fc50-3cca-a2c1-57ba693c599c",
+      "musicbrainz_mbid": "a30cb5bc-fc50-3cca-a2c1-57ba693c599c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a30cb5bc-fc50-3cca-a2c1-57ba693c599c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:dinosaur-jr"
+      ],
+      "canonical_name": "You’re Living All Over Me",
+      "first_release_date": "1987-07",
+      "internal_id": "mw:release-group:40f8a16c-568b-3b94-9682-863c4dc7ab66",
+      "musicbrainz_mbid": "40f8a16c-568b-3b94-9682-863c4dc7ab66",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/40f8a16c-568b-3b94-9682-863c4dc7ab66"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:yo-la-tengo"
+      ],
+      "canonical_name": "Ride the Tiger",
+      "first_release_date": "1986",
+      "internal_id": "mw:release-group:2b4c5c7f-7a36-3c8f-ab93-14a83a2142c2",
+      "musicbrainz_mbid": "2b4c5c7f-7a36-3c8f-ab93-14a83a2142c2",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2b4c5c7f-7a36-3c8f-ab93-14a83a2142c2"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:yo-la-tengo"
+      ],
+      "canonical_name": "New Wave Hot Dogs",
+      "first_release_date": "1987",
+      "internal_id": "mw:release-group:bdcb4d98-368e-309e-93c7-44530d3de1e7",
+      "musicbrainz_mbid": "bdcb4d98-368e-309e-93c7-44530d3de1e7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/bdcb4d98-368e-309e-93c7-44530d3de1e7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:modest-mouse"
+      ],
+      "canonical_name": "Tube-Fruit, All Smiles and Chocolate",
+      "first_release_date": "1993",
+      "internal_id": "mw:release-group:e50a1270-3e26-4ec6-9d25-b68ee45f4618",
+      "musicbrainz_mbid": "e50a1270-3e26-4ec6-9d25-b68ee45f4618",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/e50a1270-3e26-4ec6-9d25-b68ee45f4618"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:modest-mouse"
+      ],
+      "canonical_name": "Sad Sappy Sucker Chokin on a Mouthful of Lost Thoughts",
+      "first_release_date": "1995",
+      "internal_id": "mw:release-group:19381289-8d8c-42b5-999c-91498bdf9504",
+      "musicbrainz_mbid": "19381289-8d8c-42b5-999c-91498bdf9504",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/19381289-8d8c-42b5-999c-91498bdf9504"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:nirvana"
+      ],
+      "canonical_name": "Bleach",
+      "first_release_date": "1989-08-08",
+      "internal_id": "mw:release-group:f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+      "musicbrainz_mbid": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/f1afec0b-26dd-3db5-9aa1-c91229a74a24"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:nirvana"
+      ],
+      "canonical_name": "Nevermind",
+      "first_release_date": "1991-09-24",
+      "internal_id": "mw:release-group:1b022e01-4da6-387b-8658-8678046e4cef",
+      "musicbrainz_mbid": "1b022e01-4da6-387b-8658-8678046e4cef",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/1b022e01-4da6-387b-8658-8678046e4cef"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pearl-jam"
+      ],
+      "canonical_name": "1991-10-26 Normandy High School: Parma, OH",
+      "first_release_date": "1991",
+      "internal_id": "mw:release-group:1471b5e6-93ed-4f46-9ff0-e91345044500",
+      "musicbrainz_mbid": "1471b5e6-93ed-4f46-9ff0-e91345044500",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1471b5e6-93ed-4f46-9ff0-e91345044500"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pearl-jam"
+      ],
+      "canonical_name": "1991-11-21 Blind Pig, Ann Arbor, Michigan, USA",
+      "first_release_date": "1991",
+      "internal_id": "mw:release-group:1b38ae97-c65a-42d2-b0c3-753343afb81c",
+      "musicbrainz_mbid": "1b38ae97-c65a-42d2-b0c3-753343afb81c",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1b38ae97-c65a-42d2-b0c3-753343afb81c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:soundgarden"
+      ],
+      "canonical_name": "Ultramega OK",
+      "first_release_date": "1988-10-31",
+      "internal_id": "mw:release-group:ea22eb82-c3b2-32c6-84cf-10f7e28b0230",
+      "musicbrainz_mbid": "ea22eb82-c3b2-32c6-84cf-10f7e28b0230",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ea22eb82-c3b2-32c6-84cf-10f7e28b0230"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:soundgarden"
+      ],
+      "canonical_name": "1989-06-09: Motion Unlimited, Madone, Bergamo, Italy",
+      "first_release_date": "1989",
+      "internal_id": "mw:release-group:70160a1f-bcb5-410a-85c9-56849afb2b75",
+      "musicbrainz_mbid": "70160a1f-bcb5-410a-85c9-56849afb2b75",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/70160a1f-bcb5-410a-85c9-56849afb2b75"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:alice-in-chains"
+      ],
+      "canonical_name": "Alice in Chains",
+      "first_release_date": "1989",
+      "internal_id": "mw:release-group:5918ad2b-91e7-4edd-b8e9-dfb57afa0f80",
+      "musicbrainz_mbid": "5918ad2b-91e7-4edd-b8e9-dfb57afa0f80",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5918ad2b-91e7-4edd-b8e9-dfb57afa0f80"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:alice-in-chains"
+      ],
+      "canonical_name": "Facelift",
+      "first_release_date": "1990-08-28",
+      "internal_id": "mw:release-group:7d026b9c-9159-34b5-a40d-14f134718394",
+      "musicbrainz_mbid": "7d026b9c-9159-34b5-a40d-14f134718394",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/7d026b9c-9159-34b5-a40d-14f134718394"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mudhoney"
+      ],
+      "canonical_name": "Mudhoney",
+      "first_release_date": "1989",
+      "internal_id": "mw:release-group:f65a4a2b-6fb2-36f5-9b1c-ecdba09453b2",
+      "musicbrainz_mbid": "f65a4a2b-6fb2-36f5-9b1c-ecdba09453b2",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/f65a4a2b-6fb2-36f5-9b1c-ecdba09453b2"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mudhoney"
+      ],
+      "canonical_name": "Every Good Boy Deserves Fudge",
+      "first_release_date": "1991",
+      "internal_id": "mw:release-group:a06ea2e4-c2ff-3169-8af5-5625f0a6ed9a",
+      "musicbrainz_mbid": "a06ea2e4-c2ff-3169-8af5-5625f0a6ed9a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a06ea2e4-c2ff-3169-8af5-5625f0a6ed9a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine"
+      ],
+      "canonical_name": "Man You Love to Hate - Live",
+      "first_release_date": "1985",
+      "internal_id": "mw:release-group:1a8da609-c1b0-4d1d-bb9f-a739eab5f165",
+      "musicbrainz_mbid": "1a8da609-c1b0-4d1d-bb9f-a739eab5f165",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1a8da609-c1b0-4d1d-bb9f-a739eab5f165"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine"
+      ],
+      "canonical_name": "Isn’t Anything",
+      "first_release_date": "1988-11-21",
+      "internal_id": "mw:release-group:55a73423-bf7d-3969-b1b2-c34c43140e1a",
+      "musicbrainz_mbid": "55a73423-bf7d-3969-b1b2-c34c43140e1a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/55a73423-bf7d-3969-b1b2-c34c43140e1a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slowdive"
+      ],
+      "canonical_name": "Just for a Day",
+      "first_release_date": "1991-09-02",
+      "internal_id": "mw:release-group:223866ce-e81a-3120-b215-b7ee69ebbfc7",
+      "musicbrainz_mbid": "223866ce-e81a-3120-b215-b7ee69ebbfc7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/223866ce-e81a-3120-b215-b7ee69ebbfc7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slowdive"
+      ],
+      "canonical_name": "Blue Day",
+      "first_release_date": "1992-02",
+      "internal_id": "mw:release-group:2ffa24d9-7b7c-3e8d-9991-ebd63f2dc02a",
+      "musicbrainz_mbid": "2ffa24d9-7b7c-3e8d-9991-ebd63f2dc02a",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/2ffa24d9-7b7c-3e8d-9991-ebd63f2dc02a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ride"
+      ],
+      "canonical_name": "Nowhere",
+      "first_release_date": "1990-10-15",
+      "internal_id": "mw:release-group:4ff18a50-33fa-37aa-a355-ea2a70e35ae3",
+      "musicbrainz_mbid": "4ff18a50-33fa-37aa-a355-ea2a70e35ae3",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/4ff18a50-33fa-37aa-a355-ea2a70e35ae3"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ride"
+      ],
+      "canonical_name": "Smile",
+      "first_release_date": "1990-10-05",
+      "internal_id": "mw:release-group:e3ea5c73-040a-3949-82a7-95ae53ff04aa",
+      "musicbrainz_mbid": "e3ea5c73-040a-3949-82a7-95ae53ff04aa",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/e3ea5c73-040a-3949-82a7-95ae53ff04aa"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:lush"
+      ],
+      "canonical_name": "Gala",
+      "first_release_date": "1990-11-13",
+      "internal_id": "mw:release-group:347e0971-6e5e-3d79-bf6e-d1ffbb2c6bb3",
+      "musicbrainz_mbid": "347e0971-6e5e-3d79-bf6e-d1ffbb2c6bb3",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/347e0971-6e5e-3d79-bf6e-d1ffbb2c6bb3"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:lush"
+      ],
+      "canonical_name": "Spooky",
+      "first_release_date": "1992-01-21",
+      "internal_id": "mw:release-group:11cdf8e5-6ff5-351c-82ab-7971ae8b468b",
+      "musicbrainz_mbid": "11cdf8e5-6ff5-351c-82ab-7971ae8b468b",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/11cdf8e5-6ff5-351c-82ab-7971ae8b468b"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:chapterhouse"
+      ],
+      "canonical_name": "1991-09-11: KROQ Noontime Free Concert \"Whirl Domination\": Whiskey A Go-Go, Los Angeles, CA, USA",
+      "first_release_date": "1991-09-11",
+      "internal_id": "mw:release-group:5a56d2f7-c750-4293-8f60-df5417d2842e",
+      "musicbrainz_mbid": "5a56d2f7-c750-4293-8f60-df5417d2842e",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/5a56d2f7-c750-4293-8f60-df5417d2842e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:chapterhouse"
+      ],
+      "canonical_name": "Whirlpool",
+      "first_release_date": "1991-04-01",
+      "internal_id": "mw:release-group:d0d9f7ee-8338-4fcb-9257-7bf2f55a4133",
+      "musicbrainz_mbid": "d0d9f7ee-8338-4fcb-9257-7bf2f55a4133",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d0d9f7ee-8338-4fcb-9257-7bf2f55a4133"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bauhaus"
+      ],
+      "canonical_name": "In the Flat Field",
+      "first_release_date": "1980-10",
+      "internal_id": "mw:release-group:0fc9f4c7-ee00-39ec-a767-4574823c2064",
+      "musicbrainz_mbid": "0fc9f4c7-ee00-39ec-a767-4574823c2064",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/0fc9f4c7-ee00-39ec-a767-4574823c2064"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bauhaus"
+      ],
+      "canonical_name": "Mask",
+      "first_release_date": "1981-10",
+      "internal_id": "mw:release-group:b9478bd5-7b9a-326e-8bdf-ad8cf8978f54",
+      "musicbrainz_mbid": "b9478bd5-7b9a-326e-8bdf-ad8cf8978f54",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b9478bd5-7b9a-326e-8bdf-ad8cf8978f54"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-sisters-of-mercy"
+      ],
+      "canonical_name": "Cryptic Flowers",
+      "first_release_date": "1984",
+      "internal_id": "mw:release-group:1e643ba2-8904-4dd5-920a-1a2bb744f4bd",
+      "musicbrainz_mbid": "1e643ba2-8904-4dd5-920a-1a2bb744f4bd",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/1e643ba2-8904-4dd5-920a-1a2bb744f4bd"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-sisters-of-mercy"
+      ],
+      "canonical_name": "Psychedelic Sessions",
+      "first_release_date": "1984",
+      "internal_id": "mw:release-group:a0a0fdf0-a57b-321a-9c16-ea5a8f6de094",
+      "musicbrainz_mbid": "a0a0fdf0-a57b-321a-9c16-ea5a8f6de094",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/a0a0fdf0-a57b-321a-9c16-ea5a8f6de094"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-mission"
+      ],
+      "canonical_name": "God’s Own Medicine",
+      "first_release_date": "1986-11",
+      "internal_id": "mw:release-group:09c933ae-3a2d-3aab-9bcc-492de5d53eab",
+      "musicbrainz_mbid": "09c933ae-3a2d-3aab-9bcc-492de5d53eab",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/09c933ae-3a2d-3aab-9bcc-492de5d53eab"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-mission"
+      ],
+      "canonical_name": "The First Chapter",
+      "first_release_date": "1987-06",
+      "internal_id": "mw:release-group:a69bfa81-2f38-3729-8b10-cf4c4477b26d",
+      "musicbrainz_mbid": "a69bfa81-2f38-3729-8b10-cf4c4477b26d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a69bfa81-2f38-3729-8b10-cf4c4477b26d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:fields-of-the-nephilim"
+      ],
+      "canonical_name": "Dawnrazor",
+      "first_release_date": "1987-05-04",
+      "internal_id": "mw:release-group:559a2463-1b78-315e-9fb5-f9929860df8a",
+      "musicbrainz_mbid": "559a2463-1b78-315e-9fb5-f9929860df8a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/559a2463-1b78-315e-9fb5-f9929860df8a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:fields-of-the-nephilim"
+      ],
+      "canonical_name": "Marquee 1 30.12.87",
+      "first_release_date": "1987",
+      "internal_id": "mw:release-group:fa885097-8263-47d0-ae31-56611efa1c94",
+      "musicbrainz_mbid": "fa885097-8263-47d0-ae31-56611efa1c94",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/fa885097-8263-47d0-ae31-56611efa1c94"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:christian-death"
+      ],
+      "canonical_name": "Only Theatre of Pain",
+      "first_release_date": "1982",
+      "internal_id": "mw:release-group:dbde84c8-abd9-3c73-a25c-3acf60754fee",
+      "musicbrainz_mbid": "dbde84c8-abd9-3c73-a25c-3acf60754fee",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/dbde84c8-abd9-3c73-a25c-3acf60754fee"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:christian-death"
+      ],
+      "canonical_name": "Catastrophe Ballet",
+      "first_release_date": "1984",
+      "internal_id": "mw:release-group:391ac662-00f3-32d2-b411-f8a66fa2970a",
+      "musicbrainz_mbid": "391ac662-00f3-32d2-b411-f8a66fa2970a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/391ac662-00f3-32d2-b411-f8a66fa2970a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:david-bowie"
+      ],
+      "canonical_name": "David Bowie",
+      "first_release_date": "1967-06",
+      "internal_id": "mw:release-group:5db40351-97ed-36a8-88e2-a21a2603cae1",
+      "musicbrainz_mbid": "5db40351-97ed-36a8-88e2-a21a2603cae1",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5db40351-97ed-36a8-88e2-a21a2603cae1"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:david-bowie"
+      ],
+      "canonical_name": "David Bowie",
+      "first_release_date": "1969-11-04",
+      "internal_id": "mw:release-group:2e12918c-4973-3537-b9ab-e4723ae1ae1d",
+      "musicbrainz_mbid": "2e12918c-4973-3537-b9ab-e4723ae1ae1d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2e12918c-4973-3537-b9ab-e4723ae1ae1d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:t-rex"
+      ],
+      "canonical_name": "My People Were Fair and Had Sky in Their Hair… But Now They’re Content to Wear Stars on Their Brows",
+      "first_release_date": "1968-07",
+      "internal_id": "mw:release-group:12b9dca0-c09b-3949-bbe9-a05cb56cc616",
+      "musicbrainz_mbid": "12b9dca0-c09b-3949-bbe9-a05cb56cc616",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/12b9dca0-c09b-3949-bbe9-a05cb56cc616"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:t-rex"
+      ],
+      "canonical_name": "Prophets, Seers & Sages: The Angels of the Ages",
+      "first_release_date": "1968-10-14",
+      "internal_id": "mw:release-group:64ff123e-db5c-3928-a4a8-e32cecc19bd0",
+      "musicbrainz_mbid": "64ff123e-db5c-3928-a4a8-e32cecc19bd0",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/64ff123e-db5c-3928-a4a8-e32cecc19bd0"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:roxy-music"
+      ],
+      "canonical_name": "Roxy Music",
+      "first_release_date": "1972-06-16",
+      "internal_id": "mw:release-group:3ff6284f-88b0-3285-895a-61c733e6d4ca",
+      "musicbrainz_mbid": "3ff6284f-88b0-3285-895a-61c733e6d4ca",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3ff6284f-88b0-3285-895a-61c733e6d4ca"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:roxy-music"
+      ],
+      "canonical_name": "Stereo Pop Special—24",
+      "first_release_date": "1972",
+      "internal_id": "mw:release-group:4924dd98-1e71-4690-83eb-72c6df75dda8",
+      "musicbrainz_mbid": "4924dd98-1e71-4690-83eb-72c6df75dda8",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/4924dd98-1e71-4690-83eb-72c6df75dda8"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sweet"
+      ],
+      "canonical_name": "Funny How Sweet Co‐Co Can Be",
+      "first_release_date": "1971",
+      "internal_id": "mw:release-group:b30319d4-0caf-3b00-9a98-3148d2836706",
+      "musicbrainz_mbid": "b30319d4-0caf-3b00-9a98-3148d2836706",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b30319d4-0caf-3b00-9a98-3148d2836706"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sweet"
+      ],
+      "canonical_name": "The Sweet’s Biggest Hits",
+      "first_release_date": "1972",
+      "internal_id": "mw:release-group:97d59543-14a3-33df-96d2-21c503ea9666",
+      "musicbrainz_mbid": "97d59543-14a3-33df-96d2-21c503ea9666",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/97d59543-14a3-33df-96d2-21c503ea9666"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slade"
+      ],
+      "canonical_name": "Beginnings",
+      "first_release_date": "1969-05-09",
+      "internal_id": "mw:release-group:c96fc721-dc8b-3b63-bd3e-22f8f1cae3f8",
+      "musicbrainz_mbid": "c96fc721-dc8b-3b63-bd3e-22f8f1cae3f8",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/c96fc721-dc8b-3b63-bd3e-22f8f1cae3f8"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slade"
+      ],
+      "canonical_name": "Play It Loud",
+      "first_release_date": "1970",
+      "internal_id": "mw:release-group:d9b63466-c35a-32f3-a878-c3d747412a55",
+      "musicbrainz_mbid": "d9b63466-c35a-32f3-a878-c3d747412a55",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d9b63466-c35a-32f3-a878-c3d747412a55"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-sonics"
+      ],
+      "canonical_name": "Merry Christmas",
+      "first_release_date": "1965",
+      "internal_id": "mw:release-group:13d93099-983c-3d07-bb49-40936f797f87",
+      "musicbrainz_mbid": "13d93099-983c-3d07-bb49-40936f797f87",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/13d93099-983c-3d07-bb49-40936f797f87"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-sonics"
+      ],
+      "canonical_name": "Here Are The Sonics!!!",
+      "first_release_date": "1965",
+      "internal_id": "mw:release-group:d03da025-4f5b-35fc-9add-cbdb583ba516",
+      "musicbrainz_mbid": "d03da025-4f5b-35fc-9add-cbdb583ba516",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d03da025-4f5b-35fc-9add-cbdb583ba516"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-seeds"
+      ],
+      "canonical_name": "The Seeds",
+      "first_release_date": "1966",
+      "internal_id": "mw:release-group:54e06f2b-c290-399a-8d56-26a9bcb08718",
+      "musicbrainz_mbid": "54e06f2b-c290-399a-8d56-26a9bcb08718",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/54e06f2b-c290-399a-8d56-26a9bcb08718"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-seeds"
+      ],
+      "canonical_name": "A Web of Sound",
+      "first_release_date": "1966",
+      "internal_id": "mw:release-group:fa4eb52a-768f-3e44-b77e-986c4a110ec4",
+      "musicbrainz_mbid": "fa4eb52a-768f-3e44-b77e-986c4a110ec4",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/fa4eb52a-768f-3e44-b77e-986c4a110ec4"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-stooges"
+      ],
+      "canonical_name": "The Stooges",
+      "first_release_date": "1969-08-05",
+      "internal_id": "mw:release-group:18037a41-2695-3a8f-a732-f6653a7f125b",
+      "musicbrainz_mbid": "18037a41-2695-3a8f-a732-f6653a7f125b",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/18037a41-2695-3a8f-a732-f6653a7f125b"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-stooges"
+      ],
+      "canonical_name": "Fun House",
+      "first_release_date": "1970-07-07",
+      "internal_id": "mw:release-group:edd57263-df77-3f1a-8803-8beb5d5b1a64",
+      "musicbrainz_mbid": "edd57263-df77-3f1a-8803-8beb5d5b1a64",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/edd57263-df77-3f1a-8803-8beb5d5b1a64"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mc5"
+      ],
+      "canonical_name": "Kick Out the Jams",
+      "first_release_date": "1969",
+      "internal_id": "mw:release-group:44410403-45d3-30fa-ba48-d16664bf6fb3",
+      "musicbrainz_mbid": "44410403-45d3-30fa-ba48-d16664bf6fb3",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/44410403-45d3-30fa-ba48-d16664bf6fb3"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mc5"
+      ],
+      "canonical_name": "Back in the USA",
+      "first_release_date": "1970",
+      "internal_id": "mw:release-group:1dc35b25-2e1a-30e1-87c0-6dd07aa8f592",
+      "musicbrainz_mbid": "1dc35b25-2e1a-30e1-87c0-6dd07aa8f592",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/1dc35b25-2e1a-30e1-87c0-6dd07aa8f592"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-standells"
+      ],
+      "canonical_name": "In Person at P.J.s",
+      "first_release_date": "1964-09",
+      "internal_id": "mw:release-group:9690c412-8ddc-475b-93c7-26287862ab55",
+      "musicbrainz_mbid": "9690c412-8ddc-475b-93c7-26287862ab55",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/9690c412-8ddc-475b-93c7-26287862ab55"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-standells"
+      ],
+      "canonical_name": "Why Pick on Me",
+      "first_release_date": "1966",
+      "internal_id": "mw:release-group:264bacc9-d1e3-3d28-9c41-8fb4266bca7d",
+      "musicbrainz_mbid": "264bacc9-d1e3-3d28-9c41-8fb4266bca7d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/264bacc9-d1e3-3d28-9c41-8fb4266bca7d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:can"
+      ],
+      "canonical_name": "Monster Movie",
+      "first_release_date": "1969-08",
+      "internal_id": "mw:release-group:2a03875e-05c1-3b8f-8b8a-6bdc82f8f412",
+      "musicbrainz_mbid": "2a03875e-05c1-3b8f-8b8a-6bdc82f8f412",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/2a03875e-05c1-3b8f-8b8a-6bdc82f8f412"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:can"
+      ],
+      "canonical_name": "Soundtracks",
+      "first_release_date": "1970",
+      "internal_id": "mw:release-group:898abf84-7be5-357b-87ca-cafd576f1638",
+      "musicbrainz_mbid": "898abf84-7be5-357b-87ca-cafd576f1638",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/898abf84-7be5-357b-87ca-cafd576f1638"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:neu"
+      ],
+      "canonical_name": "Neu!",
+      "first_release_date": "1972",
+      "internal_id": "mw:release-group:00b3e683-47fa-3302-add0-4c0cecc5224e",
+      "musicbrainz_mbid": "00b3e683-47fa-3302-add0-4c0cecc5224e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/00b3e683-47fa-3302-add0-4c0cecc5224e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:neu"
+      ],
+      "canonical_name": "Neu! 2",
+      "first_release_date": "1973",
+      "internal_id": "mw:release-group:9ea01d83-e7e9-3445-a1bc-e231ebec635b",
+      "musicbrainz_mbid": "9ea01d83-e7e9-3445-a1bc-e231ebec635b",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/9ea01d83-e7e9-3445-a1bc-e231ebec635b"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:faust"
+      ],
+      "canonical_name": "Faust",
+      "first_release_date": "1971",
+      "internal_id": "mw:release-group:cff68c1a-3298-390c-8445-840f8a46bd39",
+      "musicbrainz_mbid": "cff68c1a-3298-390c-8445-840f8a46bd39",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/cff68c1a-3298-390c-8445-840f8a46bd39"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:faust"
+      ],
+      "canonical_name": "So Far",
+      "first_release_date": "1972",
+      "internal_id": "mw:release-group:5eb73318-610f-39dd-ac16-89d88ef1341a",
+      "musicbrainz_mbid": "5eb73318-610f-39dd-ac16-89d88ef1341a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5eb73318-610f-39dd-ac16-89d88ef1341a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:kraftwerk"
+      ],
+      "canonical_name": "Kraftwerk",
+      "first_release_date": "1970-07",
+      "internal_id": "mw:release-group:47e62190-67b6-3d37-951c-43eb14894b3e",
+      "musicbrainz_mbid": "47e62190-67b6-3d37-951c-43eb14894b3e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/47e62190-67b6-3d37-951c-43eb14894b3e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:kraftwerk"
+      ],
+      "canonical_name": "Kraftwerk 2",
+      "first_release_date": "1972-01",
+      "internal_id": "mw:release-group:b44d78cc-41d7-3f84-b397-4b135a3f7d9d",
+      "musicbrainz_mbid": "b44d78cc-41d7-3f84-b397-4b135a3f7d9d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b44d78cc-41d7-3f84-b397-4b135a3f7d9d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:amon-duul-ii"
+      ],
+      "canonical_name": "Phallus Dei",
+      "first_release_date": "1969",
+      "internal_id": "mw:release-group:a094de41-518b-3e71-8f67-cb20b51065bd",
+      "musicbrainz_mbid": "a094de41-518b-3e71-8f67-cb20b51065bd",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a094de41-518b-3e71-8f67-cb20b51065bd"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:amon-duul-ii"
+      ],
+      "canonical_name": "Yeti",
+      "first_release_date": "1970-04",
+      "internal_id": "mw:release-group:9dc1970e-6e6c-3143-b775-a54197d2c38d",
+      "musicbrainz_mbid": "9dc1970e-6e6c-3143-b775-a54197d2c38d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/9dc1970e-6e6c-3143-b775-a54197d2c38d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slint"
+      ],
+      "canonical_name": "1987-04-27: Louisville, KY, US",
+      "first_release_date": "1987-04-27",
+      "internal_id": "mw:release-group:44af134c-c001-476a-9c73-b0b04606ace3",
+      "musicbrainz_mbid": "44af134c-c001-476a-9c73-b0b04606ace3",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/44af134c-c001-476a-9c73-b0b04606ace3"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slint"
+      ],
+      "canonical_name": "Tweez",
+      "first_release_date": "1989",
+      "internal_id": "mw:release-group:d4d8e5d3-09ec-3227-a8eb-feda6c9a5658",
+      "musicbrainz_mbid": "d4d8e5d3-09ec-3227-a8eb-feda6c9a5658",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/d4d8e5d3-09ec-3227-a8eb-feda6c9a5658"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:tortoise"
+      ],
+      "canonical_name": "Tortoise",
+      "first_release_date": "1994-06-22",
+      "internal_id": "mw:release-group:edb5b115-663c-3b62-a1f0-b44362a9b979",
+      "musicbrainz_mbid": "edb5b115-663c-3b62-a1f0-b44362a9b979",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/edb5b115-663c-3b62-a1f0-b44362a9b979"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:tortoise"
+      ],
+      "canonical_name": "Rhythms, Resolutions & Clusters",
+      "first_release_date": "1995",
+      "internal_id": "mw:release-group:de98d521-6213-3e6c-a0f5-1c30ae3cc541",
+      "musicbrainz_mbid": "de98d521-6213-3e6c-a0f5-1c30ae3cc541",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Remix"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/de98d521-6213-3e6c-a0f5-1c30ae3cc541"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:godspeed-you-black-emperor"
+      ],
+      "canonical_name": "All Lights Fucked on the Hairy Amp Drooling",
+      "first_release_date": "1994",
+      "internal_id": "mw:release-group:4beeac7a-57bd-4add-a611-8dc2b03c64e2",
+      "musicbrainz_mbid": "4beeac7a-57bd-4add-a611-8dc2b03c64e2",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/4beeac7a-57bd-4add-a611-8dc2b03c64e2"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:godspeed-you-black-emperor"
+      ],
+      "canonical_name": "F♯ A♯ ∞",
+      "first_release_date": "1997-08-14",
+      "internal_id": "mw:release-group:01d06c6e-a4e6-3d8b-8a45-42a598fe87d7",
+      "musicbrainz_mbid": "01d06c6e-a4e6-3d8b-8a45-42a598fe87d7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/01d06c6e-a4e6-3d8b-8a45-42a598fe87d7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mogwai"
+      ],
+      "canonical_name": "Young Team",
+      "first_release_date": "1997-10-21",
+      "internal_id": "mw:release-group:8cc9da13-a1b3-3865-9587-a46f7599982f",
+      "musicbrainz_mbid": "8cc9da13-a1b3-3865-9587-a46f7599982f",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/8cc9da13-a1b3-3865-9587-a46f7599982f"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mogwai"
+      ],
+      "canonical_name": "Ten Rapid: Collected Recordings 1996–1997",
+      "first_release_date": "1997-08-12",
+      "internal_id": "mw:release-group:a6a4f67f-6360-3caf-b64b-4c77a6dd4472",
+      "musicbrainz_mbid": "a6a4f67f-6360-3caf-b64b-4c77a6dd4472",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/a6a4f67f-6360-3caf-b64b-4c77a6dd4472"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:explosions-in-the-sky"
+      ],
+      "canonical_name": "How Strange, Innocence",
+      "first_release_date": "2000-01-17",
+      "internal_id": "mw:release-group:f8c03ad5-004b-373e-a64b-0aab8ae97b3c",
+      "musicbrainz_mbid": "f8c03ad5-004b-373e-a64b-0aab8ae97b3c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/f8c03ad5-004b-373e-a64b-0aab8ae97b3c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:explosions-in-the-sky"
+      ],
+      "canonical_name": "Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever",
+      "first_release_date": "2001-08-27",
+      "internal_id": "mw:release-group:5e9318ae-4670-3907-8c3b-19f9bc4be886",
+      "musicbrainz_mbid": "5e9318ae-4670-3907-8c3b-19f9bc4be886",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/5e9318ae-4670-3907-8c3b-19f9bc4be886"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill"
+      ],
+      "canonical_name": "Revolution Girl Style Now",
+      "first_release_date": "1991",
+      "internal_id": "mw:release-group:5c932206-2527-3d98-bba3-ce4cd0700a00",
+      "musicbrainz_mbid": "5c932206-2527-3d98-bba3-ce4cd0700a00",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/5c932206-2527-3d98-bba3-ce4cd0700a00"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill"
+      ],
+      "canonical_name": "1991-08-12: 7th Street Entry, Minneapolis, MN, US",
+      "first_release_date": "1991-08-12",
+      "internal_id": "mw:release-group:f5d173aa-1535-4877-8019-7fb3cded3f56",
+      "musicbrainz_mbid": "f5d173aa-1535-4877-8019-7fb3cded3f56",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/f5d173aa-1535-4877-8019-7fb3cded3f56"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bratmobile"
+      ],
+      "canonical_name": "Pottymouth",
+      "first_release_date": "1993-06",
+      "internal_id": "mw:release-group:ce8ea607-4871-33fe-8cc1-41e47462b60c",
+      "musicbrainz_mbid": "ce8ea607-4871-33fe-8cc1-41e47462b60c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ce8ea607-4871-33fe-8cc1-41e47462b60c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bratmobile"
+      ],
+      "canonical_name": "Ladies, Women and Girls",
+      "first_release_date": "2000-10",
+      "internal_id": "mw:release-group:60796ff6-9716-3ed1-8505-c4037900e63a",
+      "musicbrainz_mbid": "60796ff6-9716-3ed1-8505-c4037900e63a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/60796ff6-9716-3ed1-8505-c4037900e63a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sleater-kinney"
+      ],
+      "canonical_name": "Sleater-Kinney",
+      "first_release_date": "1995-06-25",
+      "internal_id": "mw:release-group:e652c8d0-a4fa-35a0-afaf-01860fe2bdf6",
+      "musicbrainz_mbid": "e652c8d0-a4fa-35a0-afaf-01860fe2bdf6",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/e652c8d0-a4fa-35a0-afaf-01860fe2bdf6"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:sleater-kinney"
+      ],
+      "canonical_name": "Call the Doctor",
+      "first_release_date": "1996-03-25",
+      "internal_id": "mw:release-group:3da3cb84-2196-34bf-a67b-f9e4ee22ae76",
+      "musicbrainz_mbid": "3da3cb84-2196-34bf-a67b-f9e4ee22ae76",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3da3cb84-2196-34bf-a67b-f9e4ee22ae76"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:huggy-bear"
+      ],
+      "canonical_name": "WeBitched",
+      "first_release_date": "1992",
+      "internal_id": "mw:release-group:ad509d42-1ad6-4de8-8619-c8dff1a2983a",
+      "musicbrainz_mbid": "ad509d42-1ad6-4de8-8619-c8dff1a2983a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ad509d42-1ad6-4de8-8619-c8dff1a2983a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:huggy-bear"
+      ],
+      "canonical_name": "Yeah Yeah Yeah Yeah / Our Troubled Youth",
+      "first_release_date": "1992",
+      "internal_id": "mw:release-group:ddaab25d-acf3-3d6f-ba0e-c2cf08b4ac27",
+      "musicbrainz_mbid": "ddaab25d-acf3-3d6f-ba0e-c2cf08b4ac27",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ddaab25d-acf3-3d6f-ba0e-c2cf08b4ac27"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:heavens-to-betsy"
+      ],
+      "canonical_name": "Heavens to Betsy",
+      "first_release_date": "1992",
+      "internal_id": "mw:release-group:7e478007-df31-4023-b991-e3f9f4946e52",
+      "musicbrainz_mbid": "7e478007-df31-4023-b991-e3f9f4946e52",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/7e478007-df31-4023-b991-e3f9f4946e52"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:heavens-to-betsy"
+      ],
+      "canonical_name": "Calculated",
+      "first_release_date": "1994-03-01",
+      "internal_id": "mw:release-group:3a65c20f-d728-3c0f-b2a9-9928760eb58e",
+      "musicbrainz_mbid": "3a65c20f-d728-3c0f-b2a9-9928760eb58e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/3a65c20f-d728-3c0f-b2a9-9928760eb58e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mogollar"
+      ],
+      "canonical_name": "Danses et rythmes de la Turquie d'hier à aujourd'hui",
+      "first_release_date": "1971",
+      "internal_id": "mw:release-group:28af8126-1279-326d-aead-5a4770a8e2f7",
+      "musicbrainz_mbid": "28af8126-1279-326d-aead-5a4770a8e2f7",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/28af8126-1279-326d-aead-5a4770a8e2f7"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mogollar"
+      ],
+      "canonical_name": "Anadolu Pop",
+      "first_release_date": "1973",
+      "internal_id": "mw:release-group:b3848e84-bcce-32f2-9f7c-78ea3273b55a",
+      "musicbrainz_mbid": "b3848e84-bcce-32f2-9f7c-78ea3273b55a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b3848e84-bcce-32f2-9f7c-78ea3273b55a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:cem-karaca"
+      ],
+      "canonical_name": "Kardaşlar",
+      "first_release_date": "1973",
+      "internal_id": "mw:release-group:539fc3fb-654f-456f-b9e2-20ad35841904",
+      "musicbrainz_mbid": "539fc3fb-654f-456f-b9e2-20ad35841904",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/539fc3fb-654f-456f-b9e2-20ad35841904"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:cem-karaca"
+      ],
+      "canonical_name": "Nem Kaldı?",
+      "first_release_date": "1975-01-01",
+      "internal_id": "mw:release-group:19588a8d-d22a-3dab-bc0f-02757b585173",
+      "musicbrainz_mbid": "19588a8d-d22a-3dab-bc0f-02757b585173",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation",
+        "Demo"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/19588a8d-d22a-3dab-bc0f-02757b585173"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:erkin-koray"
+      ],
+      "canonical_name": "Erkin Koray",
+      "first_release_date": "1973",
+      "internal_id": "mw:release-group:820a63a3-44a7-3fa1-9b7f-71442276ed13",
+      "musicbrainz_mbid": "820a63a3-44a7-3fa1-9b7f-71442276ed13",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/820a63a3-44a7-3fa1-9b7f-71442276ed13"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:erkin-koray"
+      ],
+      "canonical_name": "Live in Nazilli 1974",
+      "first_release_date": "1974",
+      "internal_id": "mw:release-group:138add10-1967-40c2-b84c-af58c209376e",
+      "musicbrainz_mbid": "138add10-1967-40c2-b84c-af58c209376e",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Live"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/138add10-1967-40c2-b84c-af58c209376e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:selda-bagcan"
+      ],
+      "canonical_name": "Türkülerimiz 1",
+      "first_release_date": "1974",
+      "internal_id": "mw:release-group:332319cd-2bdc-41b5-b430-f6496c7188fb",
+      "musicbrainz_mbid": "332319cd-2bdc-41b5-b430-f6496c7188fb",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/332319cd-2bdc-41b5-b430-f6496c7188fb"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:selda-bagcan"
+      ],
+      "canonical_name": "Yuh Yuh",
+      "first_release_date": "1976-01-01",
+      "internal_id": "mw:release-group:1005b61c-edd1-4ede-9b1f-69fcd3c0f066",
+      "musicbrainz_mbid": "1005b61c-edd1-4ede-9b1f-69fcd3c0f066",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/1005b61c-edd1-4ede-9b1f-69fcd3c0f066"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:baris-manco"
+      ],
+      "canonical_name": "Dünden Bugüne…",
+      "first_release_date": "1971",
+      "internal_id": "mw:release-group:ac21fcb4-2ee4-4e54-9eca-a015844e8138",
+      "musicbrainz_mbid": "ac21fcb4-2ee4-4e54-9eca-a015844e8138",
+      "primary_type": "Album",
+      "secondary_types": [
+        "Compilation"
+      ],
+      "source_url": "https://musicbrainz.org/release-group/ac21fcb4-2ee4-4e54-9eca-a015844e8138"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:baris-manco"
+      ],
+      "canonical_name": "2023",
+      "first_release_date": "1975",
+      "internal_id": "mw:release-group:6429dca2-59c4-3dc0-91a4-7a9888086655",
+      "musicbrainz_mbid": "6429dca2-59c4-3dc0-91a4-7a9888086655",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/6429dca2-59c4-3dc0-91a4-7a9888086655"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:santana"
+      ],
+      "canonical_name": "Santana",
+      "first_release_date": "1969-08-30",
+      "internal_id": "mw:release-group:cbe55545-7a3e-3f8c-8c5f-33984a818e91",
+      "musicbrainz_mbid": "cbe55545-7a3e-3f8c-8c5f-33984a818e91",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/cbe55545-7a3e-3f8c-8c5f-33984a818e91"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:santana"
+      ],
+      "canonical_name": "Abraxas",
+      "first_release_date": "1970-09-23",
+      "internal_id": "mw:release-group:43424c73-fc58-36b0-b9cf-f8b057ac0603",
+      "musicbrainz_mbid": "43424c73-fc58-36b0-b9cf-f8b057ac0603",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/43424c73-fc58-36b0-b9cf-f8b057ac0603"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:los-jaivas"
+      ],
+      "canonical_name": "El volantín",
+      "first_release_date": "1971-09-18",
+      "internal_id": "mw:release-group:c9984482-c5a9-315e-8a79-c429cefe363e",
+      "musicbrainz_mbid": "c9984482-c5a9-315e-8a79-c429cefe363e",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/c9984482-c5a9-315e-8a79-c429cefe363e"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:los-jaivas"
+      ],
+      "canonical_name": "Los Jaivas",
+      "first_release_date": "1972",
+      "internal_id": "mw:release-group:6db43973-93a6-4442-bc61-46e0dbe1172c",
+      "musicbrainz_mbid": "6db43973-93a6-4442-bc61-46e0dbe1172c",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/6db43973-93a6-4442-bc61-46e0dbe1172c"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:soda-stereo"
+      ],
+      "canonical_name": "Soda Stereo",
+      "first_release_date": "1984",
+      "internal_id": "mw:release-group:b11e59f1-6bc5-34c3-87f5-1b1eaf75d54f",
+      "musicbrainz_mbid": "b11e59f1-6bc5-34c3-87f5-1b1eaf75d54f",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b11e59f1-6bc5-34c3-87f5-1b1eaf75d54f"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:soda-stereo"
+      ],
+      "canonical_name": "Nada personal",
+      "first_release_date": "1985",
+      "internal_id": "mw:release-group:e6cf6300-ed51-3860-9dbb-6492a522040d",
+      "musicbrainz_mbid": "e6cf6300-ed51-3860-9dbb-6492a522040d",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/e6cf6300-ed51-3860-9dbb-6492a522040d"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:los-fabulosos-cadillacs"
+      ],
+      "canonical_name": "Bares y fondas",
+      "first_release_date": "1986-08",
+      "internal_id": "mw:release-group:b56f8f4f-9e6e-35a7-90c4-ffb1f5e44c16",
+      "musicbrainz_mbid": "b56f8f4f-9e6e-35a7-90c4-ffb1f5e44c16",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/b56f8f4f-9e6e-35a7-90c4-ffb1f5e44c16"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:los-fabulosos-cadillacs"
+      ],
+      "canonical_name": "¡Yo te avisé!",
+      "first_release_date": "1987",
+      "internal_id": "mw:release-group:ffdb7fcf-7f36-3cc3-969f-753f86bfbe3a",
+      "musicbrainz_mbid": "ffdb7fcf-7f36-3cc3-969f-753f86bfbe3a",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ffdb7fcf-7f36-3cc3-969f-753f86bfbe3a"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:aterciopelados"
+      ],
+      "canonical_name": "Con el corazón en la mano",
+      "first_release_date": "1994",
+      "internal_id": "mw:release-group:ce3e37c3-81da-3e53-b8d9-c18e24db90c1",
+      "musicbrainz_mbid": "ce3e37c3-81da-3e53-b8d9-c18e24db90c1",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/ce3e37c3-81da-3e53-b8d9-c18e24db90c1"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:aterciopelados"
+      ],
+      "canonical_name": "El Dorado",
+      "first_release_date": "1995-09-25",
+      "internal_id": "mw:release-group:a11e3188-b686-3457-ada0-6a568f2b44aa",
+      "musicbrainz_mbid": "a11e3188-b686-3457-ada0-6a568f2b44aa",
+      "primary_type": "Album",
+      "secondary_types": [],
+      "source_url": "https://musicbrainz.org/release-group/a11e3188-b686-3457-ada0-6a568f2b44aa"
+    }
+  ],
+  "required_partitions": [
+    {
+      "license": "CC0-1.0",
+      "partition_id": "rock-core-cc0",
+      "status": "ready"
+    },
+    {
+      "license": "CC-BY-SA-3.0",
+      "partition_id": "rock-derived-cc-by-sa",
+      "status": "ready"
+    }
+  ],
+  "sampling_note": "Editorial experiment strata only. Membership does not create a canonical genre fact.",
+  "schema_version": "1.0",
+  "snapshot_id": "experiment-v1",
+  "styles": [
+    {
+      "artist_ids": [
+        "mw:artist:the-beatles",
+        "mw:artist:the-rolling-stones",
+        "mw:artist:the-who",
+        "mw:artist:the-kinks",
+        "mw:artist:creedence-clearwater-revival"
+      ],
+      "canonical_name": "Rock",
+      "era": "1950s-present",
+      "internal_id": "mw:style:rock",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11399.json",
+      "wikidata_qid": "Q11399"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:chuck-berry",
+        "mw:artist:little-richard",
+        "mw:artist:jerry-lee-lewis",
+        "mw:artist:buddy-holly",
+        "mw:artist:bo-diddley"
+      ],
+      "canonical_name": "Rock and Roll",
+      "era": "1950s-1960s",
+      "internal_id": "mw:style:rock-and-roll",
+      "region": "United States",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q7749.json",
+      "wikidata_qid": "Q7749"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:jefferson-airplane",
+        "mw:artist:the-doors",
+        "mw:artist:13th-floor-elevators",
+        "mw:artist:country-joe-and-the-fish",
+        "mw:artist:spirit"
+      ],
+      "canonical_name": "Psychedelic Rock",
+      "era": "1960s-1970s",
+      "internal_id": "mw:style:psychedelic-rock",
+      "region": "United States / United Kingdom",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q206159.json",
+      "wikidata_qid": "Q206159"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:king-crimson",
+        "mw:artist:yes",
+        "mw:artist:genesis",
+        "mw:artist:emerson-lake-and-palmer",
+        "mw:artist:gentle-giant"
+      ],
+      "canonical_name": "Progressive Rock",
+      "era": "1960s-present",
+      "internal_id": "mw:style:progressive-rock",
+      "region": "United Kingdom / transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q49451.json",
+      "wikidata_qid": "Q49451"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:led-zeppelin",
+        "mw:artist:deep-purple",
+        "mw:artist:ac-dc",
+        "mw:artist:aerosmith",
+        "mw:artist:van-halen"
+      ],
+      "canonical_name": "Hard Rock",
+      "era": "1960s-present",
+      "internal_id": "mw:style:hard-rock",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q83270.json",
+      "wikidata_qid": "Q83270"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:black-sabbath",
+        "mw:artist:judas-priest",
+        "mw:artist:iron-maiden",
+        "mw:artist:motorhead",
+        "mw:artist:dio"
+      ],
+      "canonical_name": "Heavy Metal",
+      "era": "1960s-present",
+      "internal_id": "mw:style:heavy-metal",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q38848.json",
+      "wikidata_qid": "Q38848"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:ramones",
+        "mw:artist:sex-pistols",
+        "mw:artist:the-clash",
+        "mw:artist:dead-kennedys",
+        "mw:artist:bad-brains"
+      ],
+      "canonical_name": "Punk Rock",
+      "era": "1970s-present",
+      "internal_id": "mw:style:punk-rock",
+      "region": "United States / United Kingdom",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q3071.json",
+      "wikidata_qid": "Q3071"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:joy-division",
+        "mw:artist:gang-of-four",
+        "mw:artist:siouxsie-and-the-banshees",
+        "mw:artist:public-image-ltd",
+        "mw:artist:wire"
+      ],
+      "canonical_name": "Post-Punk",
+      "era": "1970s-present",
+      "internal_id": "mw:style:post-punk",
+      "region": "United Kingdom / transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q598929.json",
+      "wikidata_qid": "Q598929"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:rem",
+        "mw:artist:pixies",
+        "mw:artist:the-smashing-pumpkins",
+        "mw:artist:radiohead",
+        "mw:artist:janes-addiction"
+      ],
+      "canonical_name": "Alternative Rock",
+      "era": "1980s-present",
+      "internal_id": "mw:style:alternative-rock",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11366.json",
+      "wikidata_qid": "Q11366"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:pavement",
+        "mw:artist:sonic-youth",
+        "mw:artist:dinosaur-jr",
+        "mw:artist:yo-la-tengo",
+        "mw:artist:modest-mouse"
+      ],
+      "canonical_name": "Indie Rock",
+      "era": "1980s-present",
+      "internal_id": "mw:style:indie-rock",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q183504.json",
+      "wikidata_qid": "Q183504"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:nirvana",
+        "mw:artist:pearl-jam",
+        "mw:artist:soundgarden",
+        "mw:artist:alice-in-chains",
+        "mw:artist:mudhoney"
+      ],
+      "canonical_name": "Grunge",
+      "era": "1980s-1990s",
+      "internal_id": "mw:style:grunge",
+      "region": "Pacific Northwest, United States",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q11365.json",
+      "wikidata_qid": "Q11365"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:my-bloody-valentine",
+        "mw:artist:slowdive",
+        "mw:artist:ride",
+        "mw:artist:lush",
+        "mw:artist:chapterhouse"
+      ],
+      "canonical_name": "Shoegaze",
+      "era": "1980s-present",
+      "internal_id": "mw:style:shoegaze",
+      "region": "United Kingdom / Ireland",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q272167.json",
+      "wikidata_qid": "Q272167"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bauhaus",
+        "mw:artist:the-sisters-of-mercy",
+        "mw:artist:the-mission",
+        "mw:artist:fields-of-the-nephilim",
+        "mw:artist:christian-death"
+      ],
+      "canonical_name": "Gothic Rock",
+      "era": "1970s-present",
+      "internal_id": "mw:style:gothic-rock",
+      "region": "United Kingdom / transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q485395.json",
+      "wikidata_qid": "Q485395"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:david-bowie",
+        "mw:artist:t-rex",
+        "mw:artist:roxy-music",
+        "mw:artist:sweet",
+        "mw:artist:slade"
+      ],
+      "canonical_name": "Glam Rock",
+      "era": "1970s",
+      "internal_id": "mw:style:glam-rock",
+      "region": "United Kingdom / United States",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q76092.json",
+      "wikidata_qid": "Q76092"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:the-sonics",
+        "mw:artist:the-seeds",
+        "mw:artist:the-stooges",
+        "mw:artist:mc5",
+        "mw:artist:the-standells"
+      ],
+      "canonical_name": "Garage Rock",
+      "era": "1960s-present",
+      "internal_id": "mw:style:garage-rock",
+      "region": "United States / transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q211573.json",
+      "wikidata_qid": "Q211573"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:can",
+        "mw:artist:neu",
+        "mw:artist:faust",
+        "mw:artist:kraftwerk",
+        "mw:artist:amon-duul-ii"
+      ],
+      "canonical_name": "Krautrock",
+      "era": "1960s-1970s",
+      "internal_id": "mw:style:krautrock",
+      "region": "West Germany",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q320592.json",
+      "wikidata_qid": "Q320592"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:slint",
+        "mw:artist:tortoise",
+        "mw:artist:godspeed-you-black-emperor",
+        "mw:artist:mogwai",
+        "mw:artist:explosions-in-the-sky"
+      ],
+      "canonical_name": "Post-Rock",
+      "era": "1990s-present",
+      "internal_id": "mw:style:post-rock",
+      "region": "transnational",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q209137.json",
+      "wikidata_qid": "Q209137"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:bikini-kill",
+        "mw:artist:bratmobile",
+        "mw:artist:sleater-kinney",
+        "mw:artist:huggy-bear",
+        "mw:artist:heavens-to-betsy"
+      ],
+      "canonical_name": "Riot Grrrl",
+      "era": "1990s-present",
+      "internal_id": "mw:style:riot-grrrl",
+      "region": "United States / United Kingdom",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q677542.json",
+      "wikidata_qid": "Q677542"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:mogollar",
+        "mw:artist:cem-karaca",
+        "mw:artist:erkin-koray",
+        "mw:artist:selda-bagcan",
+        "mw:artist:baris-manco"
+      ],
+      "canonical_name": "Anatolian Rock",
+      "era": "1960s-present",
+      "internal_id": "mw:style:anatolian-rock",
+      "region": "Turkey",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q483740.json",
+      "wikidata_qid": "Q483740"
+    },
+    {
+      "artist_ids": [
+        "mw:artist:santana",
+        "mw:artist:los-jaivas",
+        "mw:artist:soda-stereo",
+        "mw:artist:los-fabulosos-cadillacs",
+        "mw:artist:aterciopelados"
+      ],
+      "canonical_name": "Latin Rock",
+      "era": "1960s-present",
+      "internal_id": "mw:style:latin-rock",
+      "region": "Latin America / United States",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q185162.json",
+      "wikidata_qid": "Q185162"
+    }
+  ]
+}

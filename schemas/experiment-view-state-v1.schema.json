@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/experiment-view-state-v1.schema.json",
+  "title": "ExperimentViewStateV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["state_schema_version", "snapshot", "view", "path_id", "focus_id"],
+  "properties": {
+    "state_schema_version": { "const": "1.0" },
+    "snapshot": { "type": "string", "minLength": 1 },
+    "view": { "enum": ["3d", "2d", "editorial"] },
+    "path_id": { "type": "string", "pattern": "^mw:path:[a-z0-9][a-z0-9-]*$" },
+    "focus_id": { "type": "string", "pattern": "^mw:(style|artist|release-group|recording):" },
+    "relation_id": { "type": "string", "pattern": "^mw:relation:" },
+    "evidence_id": { "type": "string", "pattern": "^mw:evidence:" },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "relation_types": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "subgenre_of",
+              "candidate_subgenre_of",
+              "associated_with",
+              "sounds_like",
+              "influenced_by",
+              "backlash_against",
+              "hybrid_of",
+              "likely_precedes"
+            ]
+          }
+        },
+        "assertion_kinds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["fact", "inferred", "candidate"] }
+        },
+        "from_year": { "type": "integer", "minimum": 1800, "maximum": 2100 },
+        "to_year": { "type": "integer", "minimum": 1800, "maximum": 2100 }
+      }
+    }
+  }
+}

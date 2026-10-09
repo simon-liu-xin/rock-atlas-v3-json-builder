@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/research-observation-v1.schema.json",
+  "title": "ResearchObservation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "study_id",
+    "record_id",
+    "started_at",
+    "followup_at",
+    "assignment_order",
+    "new_understanding_verified",
+    "understanding_evidence_note",
+    "second_path_unprompted",
+    "save_or_share_unprompted",
+    "returned_within_7_days",
+    "metrics"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "study_id": { "const": "product-validation-v1" },
+    "record_id": { "type": "string", "pattern": "^study-record-[a-z0-9-]+$" },
+    "started_at": { "type": "string", "format": "date-time" },
+    "followup_at": { "anyOf": [{ "type": "string", "format": "date-time" }, { "type": "null" }] },
+    "assignment_order": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/view" }
+    },
+    "new_understanding_verified": { "type": "boolean" },
+    "understanding_evidence_note": { "anyOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }] },
+    "second_path_unprompted": { "type": "boolean" },
+    "save_or_share_unprompted": { "type": "boolean" },
+    "returned_within_7_days": { "type": "boolean" },
+    "metrics": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": { "$ref": "#/definitions/metric" }
+    }
+  },
+  "definitions": {
+    "view": { "enum": ["3d", "2d", "editorial", "alternative_tool"] },
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["view", "time_to_understanding_seconds", "misread_count", "continued", "unique_discovery"],
+      "properties": {
+        "view": { "$ref": "#/definitions/view" },
+        "time_to_understanding_seconds": { "type": "number", "exclusiveMinimum": 0 },
+        "misread_count": { "type": "integer", "minimum": 0 },
+        "continued": { "type": "boolean" },
+        "unique_discovery": { "type": "boolean" }
+      }
+    }
+  }
+}

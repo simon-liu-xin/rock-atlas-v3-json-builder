@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "cases": [
+    {
+      "case_id": "long-name-en",
+      "locale": "en",
+      "coverage_state": "partial",
+      "scope_role": "primary",
+      "headline": "New Wave of British Heavy Metal and the transatlantic speed-metal continuum",
+      "summary": "The display keeps the complete name and wraps it without reducing the relationship label to an unexplained abbreviation.",
+      "evidence_note": "This is a layout boundary fixture, not a new canonical style assertion."
+    },
+    {
+      "case_id": "long-name-zh",
+      "locale": "zh-CN",
+      "coverage_state": "partial",
+      "scope_role": "primary",
+      "headline": "后朋克复兴、新千年舞蹈朋克与独立电子摇滚交叉场景",
+      "summary": "完整名称允许自然换行，摘要明确说明它是界面压力样例，不能由名称反推正式风格层级。",
+      "evidence_note": "此条只验证中文长名称与容器适配，不进入 canonical graph。"
+    },
+    {
+      "case_id": "source-conflict-zh",
+      "locale": "zh-CN",
+      "coverage_state": "source_conflict",
+      "scope_role": "primary",
+      "headline": "起源年代存在来源冲突",
+      "summary": "来源甲给出单一年份，来源乙只支持一个年代区间；界面同时保留两条 assertion，不生成伪精确年份。",
+      "evidence_note": "证据面板逐条列出来源、范围、审阅状态和当前选择规则。"
+    },
+    {
+      "case_id": "not-reviewed-en",
+      "locale": "en",
+      "coverage_state": "not_reviewed",
+      "scope_role": "primary",
+      "headline": "Identified artist, editorial path not reviewed",
+      "summary": "The artist identity is present in the snapshot, but no reviewed path currently supports a historical explanation.",
+      "evidence_note": "Identity coverage must not be presented as relationship evidence."
+    },
+    {
+      "case_id": "boundary-artist-zh",
+      "locale": "zh-CN",
+      "coverage_state": "ready",
+      "scope_role": "boundary",
+      "headline": "合作署名中的边界艺人",
+      "summary": "该艺人因与 primary Artist 的共同署名进入当前包，只展示相关作品，不递归展开其完整 discography。",
+      "evidence_note": "PackageInclusion 必须记录 root Artist、scope reason 和 lineage IDs。"
+    }
+  ]
+}

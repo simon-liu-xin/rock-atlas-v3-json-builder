@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "artists": 100,
+    "evidence": 20,
+    "paths": 3,
+    "recordings": 9,
+    "relations": 20,
+    "release_groups": 200,
+    "styles": 20
+  },
+  "fixture_id": "experiment-v1",
+  "pack_format_version": 1,
+  "pack_id": "sha256:61954c43673472e04c4f4d4e3c71cb3f663aa64dda7d37e83e07a676b8379c20",
+  "payload_file": "sample.json",
+  "payload_sha256": "sha256:61954c43673472e04c4f4d4e3c71cb3f663aa64dda7d37e83e07a676b8379c20",
+  "pipeline_version": "experiment-fixture-1",
+  "required_partitions": [
+    {
+      "license": "CC0-1.0",
+      "partition_id": "rock-core-cc0",
+      "status": "ready"
+    },
+    {
+      "license": "CC-BY-SA-3.0",
+      "partition_id": "rock-derived-cc-by-sa",
+      "status": "ready"
+    }
+  ],
+  "schema_version": "1.0",
+  "snapshot_id": "experiment-v1"
+}

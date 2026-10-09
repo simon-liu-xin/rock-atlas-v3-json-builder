@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/graph-v1.schema.json",
+  "title": "Music Wiki canonical graph fixture",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "snapshot_id", "entities", "relations", "evidence"],
+  "properties": {
+    "schema_version": { "type": "string", "pattern": "^1\\.[0-9]+$" },
+    "snapshot_id": { "type": "string", "minLength": 1 },
+    "entities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["styles", "artists", "release_groups"],
+      "properties": {
+        "styles": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/style" }
+        },
+        "artists": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/artist" }
+        },
+        "release_groups": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/releaseGroup" }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/relation" }
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/evidence" }
+    }
+  },
+  "definitions": {
+    "externalIdentityAssertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["namespace", "value", "source", "confidence", "status"],
+      "properties": {
+        "namespace": { "enum": ["musicbrainz", "wikidata"] },
+        "value": { "type": "string", "minLength": 1 },
+        "source": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "status": { "enum": ["active", "conflict", "deprecated"] }
+      }
+    },
+    "entityBase": {
+      "type": "object",
+      "required": [
+        "internal_id",
+        "entity_type",
+        "canonical_name",
+        "aliases",
+        "external_identity_assertions",
+        "first_snapshot",
+        "last_snapshot",
+        "record_status",
+        "redirect_to"
+      ],
+      "properties": {
+        "internal_id": {
+          "type": "string",
+          "pattern": "^mw:(style|artist|release-group):[a-z0-9][a-z0-9-]*$"
+        },
+        "entity_type": { "enum": ["style", "artist", "release_group"] },
+        "canonical_name": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "external_identity_assertions": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/externalIdentityAssertion" }
+        },
+        "first_snapshot": { "type": "string", "minLength": 1 },
+        "last_snapshot": { "type": "string", "minLength": 1 },
+        "record_status": { "enum": ["active", "merged", "deprecated", "tombstone"] },
+        "redirect_to": {
+          "anyOf": [
+            { "type": "null" },
+            { "type": "string", "pattern": "^mw:(style|artist|release-group):" }
+          ]
+        }
+      }
+    },
+    "style": {
+      "allOf": [
+        { "$ref": "#/definitions/entityBase" },
+        {
+          "type": "object",
+          "properties": {
+            "internal_id": { "type": "string", "pattern": "^mw:style:" },
+            "entity_type": { "type": "string", "const": "style" }
+          }
+        }
+      ]
+    },
+    "artist": {
+      "allOf": [
+        { "$ref": "#/definitions/entityBase" },
+        {
+          "type": "object",
+          "properties": {
+            "internal_id": { "type": "string", "pattern": "^mw:artist:" },
+            "entity_type": { "type": "string", "const": "artist" }
+          }
+        }
+      ]
+    },
+    "releaseGroup": {
+      "allOf": [
+        { "$ref": "#/definitions/entityBase" },
+        {
+          "type": "object",
+          "required": ["artist_ids", "primary_type", "secondary_types", "first_release_date"],
+          "properties": {
+            "internal_id": { "type": "string", "pattern": "^mw:release-group:" },
+            "entity_type": { "type": "string", "const": "release_group" },
+            "artist_ids": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "pattern": "^mw:artist:" }
+            },
+            "primary_type": { "enum": ["Album", "Single", "EP", "Broadcast", "Other"] },
+            "secondary_types": {
+              "type": "array",
+              "items": { "enum": ["Studio", "Live", "Compilation", "Other"] }
+            },
+            "first_release_date": {
+              "anyOf": [{ "type": "null" }, { "type": "string", "format": "date" }]
+            }
+          }
+        }
+      ]
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "internal_id",
+        "source_id",
+        "target_id",
+        "relation_type",
+        "assertion_kind",
+        "evidence_ids",
+        "license_partition"
+      ],
+      "properties": {
+        "internal_id": { "type": "string", "pattern": "^mw:relation:[a-z0-9][a-z0-9-]*$" },
+        "source_id": { "type": "string", "pattern": "^mw:style:" },
+        "target_id": { "type": "string", "pattern": "^mw:style:" },
+        "relation_type": { "enum": ["subgenre_of", "influenced_by", "associated_with", "sounds_like"] },
+        "assertion_kind": { "enum": ["fact", "inferred", "candidate"] },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^mw:evidence:" }
+        },
+        "license_partition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "source_dataset",
+        "source_record_id",
+        "source_url",
+        "claim",
+        "retrieved_at",
+        "snapshot_version",
+        "license_partition"
+      ],
+      "properties": {
+        "evidence_id": { "type": "string", "pattern": "^mw:evidence:[a-z0-9][a-z0-9-]*$" },
+        "source_dataset": { "type": "string", "minLength": 1 },
+        "source_record_id": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "claim": { "type": "string", "minLength": 1 },
+        "retrieved_at": { "type": "string", "format": "date-time" },
+        "snapshot_version": { "type": "string", "minLength": 1 },
+        "license_partition": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

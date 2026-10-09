@@ -1,0 +1,9 @@
+{
+  "rock-atlas-current-v3": {
+    "jwk": {
+      "crv": "Ed25519",
+      "x": "Vnbgv2asFiMIhOi9FUt6HqcyP7RsemCIkxzZdSeAT0o",
+      "kty": "OKP"
+    }
+  }
+}

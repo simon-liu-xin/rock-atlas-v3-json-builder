@@ -1,0 +1,176 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/style-relation-v2.schema.json",
+  "title": "StyleRelationAssertionV2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "assertion_id",
+    "relation_id",
+    "claim_key",
+    "relation_type",
+    "direction",
+    "participants",
+    "assertion_kind",
+    "stance",
+    "review_status",
+    "metadata_completeness",
+    "claim_scope",
+    "time_context",
+    "confidence_band",
+    "evidence_ids",
+    "source_datasets",
+    "snapshot_version",
+    "pipeline_version",
+    "license_partition"
+  ],
+  "properties": {
+    "assertion_id": {
+      "type": "string",
+      "pattern": "^mw:assertion:[a-z0-9][a-z0-9-]*$"
+    },
+    "relation_id": {
+      "type": "string",
+      "pattern": "^mw:relation:[a-z0-9][a-z0-9-]*$"
+    },
+    "claim_key": {
+      "type": "string",
+      "pattern": "^mw:claim:[a-z0-9][a-z0-9-]*$"
+    },
+    "relation_type": {
+      "enum": [
+        "evolves_into",
+        "fusion_of",
+        "influences",
+        "subgenre_of",
+        "backlash_against",
+        "associated_with",
+        "sounds_like",
+        "co_tagged_with",
+        "unrelated_within_scope"
+      ]
+    },
+    "direction": { "enum": ["directed", "undirected"] },
+    "participants": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/styleRelationParticipant" }
+    },
+    "assertion_kind": { "enum": ["fact", "inferred", "candidate"] },
+    "stance": { "enum": ["supports", "disputes"] },
+    "review_status": { "enum": ["accepted", "contested", "rejected", "unreviewed"] },
+    "metadata_completeness": {
+      "enum": ["participants_only", "partial_context", "contextualized"]
+    },
+    "claim_scope": { "$ref": "#/definitions/styleRelationClaimScope" },
+    "time_context": {
+      "anyOf": [
+        { "type": "null" },
+        { "$ref": "#/definitions/styleRelationTimeContext" }
+      ]
+    },
+    "confidence_band": { "enum": ["low", "medium", "high"] },
+    "evidence_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^mw:evidence:" }
+    },
+    "source_datasets": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "snapshot_version": { "type": "string", "minLength": 1 },
+    "pipeline_version": { "type": "string", "minLength": 1 },
+    "license_partition": { "type": "string", "minLength": 1 }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "relation_type": { "const": "fusion_of" } } },
+      "then": { "properties": { "participants": { "type": "array", "minItems": 3 } } }
+    },
+    {
+      "if": {
+        "properties": {
+          "relation_type": {
+            "enum": [
+              "evolves_into",
+              "fusion_of",
+              "influences",
+              "subgenre_of",
+              "backlash_against"
+            ]
+          }
+        }
+      },
+      "then": { "properties": { "direction": { "const": "directed" } } }
+    },
+    {
+      "if": {
+        "properties": {
+          "relation_type": {
+            "enum": [
+              "associated_with",
+              "sounds_like",
+              "co_tagged_with",
+              "unrelated_within_scope"
+            ]
+          }
+        }
+      },
+      "then": { "properties": { "direction": { "const": "undirected" } } }
+    }
+  ],
+  "definitions": {
+    "styleRelationParticipant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["style_id", "role", "ordinal"],
+      "properties": {
+        "style_id": { "type": "string", "pattern": "^mw:style:" },
+        "role": { "enum": ["source", "target", "peer"] },
+        "ordinal": { "type": "integer", "minimum": 0, "maximum": 32767 }
+      }
+    },
+    "styleRelationClaimScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["geographies", "contexts"],
+      "properties": {
+        "geographies": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "contexts": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "styleRelationTimeContext": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end", "precision"],
+      "properties": {
+        "start": {
+          "anyOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "end": {
+          "anyOf": [
+            { "type": "string", "format": "date-time" },
+            { "type": "null" }
+          ]
+        },
+        "precision": { "enum": ["instant", "range", "decade", "unknown"] }
+      }
+    }
+  }
+}

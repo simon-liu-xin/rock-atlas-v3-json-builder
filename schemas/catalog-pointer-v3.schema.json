@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://musicwiki.local/schemas/catalog-pointer-v3.schema.json",
+  "title": "CatalogPointerV3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pointer_version",
+    "channel",
+    "generation_id",
+    "root_manifest_url",
+    "root_manifest_content_sha256",
+    "root_manifest_object_sha256",
+    "compatibility",
+    "published_at",
+    "key_id",
+    "signature"
+  ],
+  "properties": {
+    "pointer_version": { "const": "3.0" },
+    "channel": { "const": "rock-catalog-v3" },
+    "generation_id": {
+      "type": "string",
+      "pattern": "^mw:catalog-generation:[a-z0-9][a-z0-9._-]*$"
+    },
+    "root_manifest_url": {
+      "type": "string",
+      "pattern": "^/data/rock-catalog-v3/generations/[a-zA-Z0-9._-]+/root-manifest\\.json$"
+    },
+    "root_manifest_content_sha256": { "$ref": "#/definitions/pointerSha256" },
+    "root_manifest_object_sha256": { "$ref": "#/definitions/pointerSha256" },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "layout",
+        "search_normalization",
+        "identity_normalization",
+        "source_match_normalization",
+        "canonical_json"
+      ],
+      "properties": {
+        "schema": { "$ref": "#/definitions/pointerVersionRange" },
+        "layout": { "$ref": "#/definitions/pointerVersionRange" },
+        "search_normalization": { "const": "search-normalization-v1" },
+        "identity_normalization": { "const": "identity-normalization-v1" },
+        "source_match_normalization": { "const": "source-match-normalization-v1" },
+        "canonical_json": { "const": "canonical-json-v1" }
+      }
+    },
+    "published_at": { "type": "string", "format": "date-time" },
+    "key_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{2,79}$" },
+    "signature": { "type": "string", "pattern": "^[A-Za-z0-9_-]{86}$" }
+  },
+  "definitions": {
+    "pointerSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "pointerVersionRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "string", "minLength": 1 },
+        "max": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}
